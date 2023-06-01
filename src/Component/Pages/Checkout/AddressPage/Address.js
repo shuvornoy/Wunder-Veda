@@ -1,5 +1,6 @@
 import React from 'react';
 import './Address.css'
+import { BsShieldFillCheck } from 'react-icons/bs';
 
 const Address = () => {
     return (
@@ -46,14 +47,49 @@ const Address = () => {
                     <hr className='xl:pl-0 mt-[22px] border-[1px] border-[#CED0C8]' />
                      <h2 className='pl-[25px] xl:w-[634px] xl:h-[58px] text-[30px] font-bold xl:leading-[70px] alegreyaBold'>Payment Method</h2>
                 </div>
+
                 <div className='xl:w-[409px] h-[244px] bg-[#CED0C8] border-[1px] border-[#1E2819]'>
-                    <div>
+                    <div className='flex px-[24px] justify-between items-center mt-[18px]'>
                         <div>
                             <p className='w-[112px] h-[58px] text-[17px] font-normal nunitoNormal'>1 Item Shipping</p>
                         </div>
-                        <div></div>
+                        <div>
+                            <p className='w-[112px] h-[58px] text-[17px] font-normal nunitoNormal'>$361.00 $7.00</p>
+                        </div>
                     </div>
+                    <hr className='xl:pl-0 mt-[4px] border-[1px] border-[#1E2819]' />
+                    <div className='flex px-[24px] justify-between items-center mt-[17px]'>
+                        <div>
+                            <p className='w-[112px] h-[58px] text-[17px] font-normal nunitoNormal'>1 Item Shipping</p>
+                        </div>
+                        <div>
+                            <p className='w-[112px] h-[58px] text-[17px] font-normal nunitoNormal'>$361.00 $7.00</p>
+                        </div>
+                    </div>
+                    <hr className='xl:pl-0 mt-[4px] border-[1px] border-[#1E2819]' />
+                    <button className='text-[16px] font-bold leading-[44px] alegreyaBold xl:w-[202px] xl:h-[44px] rounded-[50px] xl:ml-[103px] xl:mt-[19px] main_btn'>CONTINUE NOW</button>
+
+                    <div className='xl:mt-[60px]'>
+                        <div className='text-[#1E2819] flex gap-[15px] items-start'>
+                            <span className='xl:ml-[60px]' ><BsShieldFillCheck size={25} /></span>
+                            <p className='xl:w-[299px] xl:h-[58px] text[16px] leading-[20px] font-normal nunitoNormal'>Security Poilcy: Lorem Ipsum Dolor Sit Amet Lorem Ipsum Dolor Sit Amet  </p>
+                        </div>
+                        <hr className='xl:w-[381px] xl:ml-[42px] border-[1px] border-[#E5E8ED]' />
+
+                        <div className='text-[#1E2819] flex gap-[15px] items-start mt-[18px]'>
+                            <span className='xl:ml-[60px]' ><BsShieldFillCheck size={25} /></span>
+                            <p className='xl:w-[299px] xl:h-[58px] text[16px] leading-[20px] font-normal nunitoNormal'>Security Poilcy: Lorem Ipsum Dolor Sit Amet Lorem Ipsum Dolor Sit Amet  </p>
+                        </div>
+                        <hr className='xl:w-[381px] xl:ml-[42px] border-[1px] border-[#E5E8ED]' />
+                        <div className='text-[#1E2819] flex gap-[15px] items-start mt-[18px]'>
+                            <span className='xl:ml-[60px]' ><BsShieldFillCheck size={25} /></span>
+                            <p className='xl:w-[299px] xl:h-[58px] text[16px] leading-[20px] font-normal nunitoNormal'>Security Poilcy: Lorem Ipsum Dolor Sit Amet Lorem Ipsum Dolor Sit Amet  </p>
+                        </div>
+                        <hr className='xl:w-[381px] xl:ml-[42px] border-[1px] border-[#E5E8ED]' />
                 </div>
+                </div>
+                 
+                
             </div>
         </div>
     );

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Cart.css'
 import img from '../../../../assets/checkout/cart/check.png'
+import { BsShieldFillCheck } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 const Cart = () => {
     return (
@@ -8,8 +9,8 @@ const Cart = () => {
             <div className=' xl:h-[370px] xl:w-full w-[390px] h-[284px] checkout_banner'>
             <h2 className='w-full h-full flex items-center justify-center xl:text-[80px] text-[50px] xl:leading-[90px] leading-[55px] font-bold text-[#1E2819] alegreyaBold'>Cart</h2>
             </div>
-              <div className='max-w-screen-xl mx-auto'>
-            <div className="flex mt-[113px]">
+              <div className='max-w-screen-xl h-[700px] mx-auto'>
+            <div className="flex xl:py-[113px] gap-[32px]">
                 <div className="w-[838px] h-[308px]  border-solid border-[1px] border-[#E5E8ED]">
                     <h2 className='text-[30px] font-[700] ml-[25px] my-4'>Shopping Cart</h2>
                     <hr />
@@ -36,7 +37,7 @@ const Cart = () => {
 
                 </div>
                
-               <div className="ml-[33px]">
+               {/* <div className="ml-[33px]">
                <div className="w-[409px] h-[244px]  border-2 border-[#E5E8ED]">
                     <div className="flex justify-between   w-full border-b-2 border-[#E5E8ED] px-5 py-3">
                         <div className="text-[17px] font-[400]"><p>1 Item <br /> Shipping</p></div>
@@ -59,7 +60,47 @@ const Cart = () => {
                  <div className="px-14 py-3">
                     <p>Security Poilcy: Lorem Ipsum Dolor Sit <br /> Amet Lorem Ipsum Dolor Sit Amet  </p>
                  </div>
-               </div>
+               </div> */}
+                    <div className='xl:w-[409px] h-[244px] bg-[#CED0C8] border-[1px] border-[#1E2819]'>
+                    <div className='flex px-[24px] justify-between items-center mt-[18px]'>
+                        <div>
+                            <p className='w-[112px] h-[58px] text-[17px] font-normal nunitoNormal'>1 Item Shipping</p>
+                        </div>
+                        <div>
+                            <p className='w-[112px] h-[58px] text-[17px] font-normal nunitoNormal'>$361.00 $7.00</p>
+                        </div>
+                    </div>
+                    <hr className='xl:pl-0 mt-[4px] border-[1px] border-[#1E2819]' />
+                    <div className='flex px-[24px] justify-between items-center mt-[17px]'>
+                        <div>
+                            <p className='w-[112px] h-[58px] text-[17px] font-normal nunitoNormal'>1 Item Shipping</p>
+                        </div>
+                        <div>
+                            <p className='w-[112px] h-[58px] text-[17px] font-normal nunitoNormal'>$361.00 $7.00</p>
+                        </div>
+                    </div>
+                    <hr className='xl:pl-0 mt-[4px] border-[1px] border-[#1E2819]' />
+                    <button className='text-[16px] font-bold leading-[44px] alegreyaBold xl:w-[202px] xl:h-[44px] rounded-[50px] xl:ml-[103px] xl:mt-[19px] main_btn'>CONTINUE NOW</button>
+
+                    <div className='xl:mt-[60px]'>
+                        <div className='text-[#1E2819] flex gap-[15px] items-start'>
+                            <span className='xl:ml-[60px]' ><BsShieldFillCheck size={25} /></span>
+                            <p className='xl:w-[299px] xl:h-[58px] text[16px] leading-[20px] font-normal nunitoNormal'>Security Poilcy: Lorem Ipsum Dolor Sit Amet Lorem Ipsum Dolor Sit Amet  </p>
+                        </div>
+                        <hr className='xl:w-[381px] xl:ml-[42px] border-[1px] border-[#E5E8ED]' />
+
+                        <div className='text-[#1E2819] flex gap-[15px] items-start mt-[18px]'>
+                            <span className='xl:ml-[60px]' ><BsShieldFillCheck size={25} /></span>
+                            <p className='xl:w-[299px] xl:h-[58px] text[16px] leading-[20px] font-normal nunitoNormal'>Security Poilcy: Lorem Ipsum Dolor Sit Amet Lorem Ipsum Dolor Sit Amet  </p>
+                        </div>
+                        <hr className='xl:w-[381px] xl:ml-[42px] border-[1px] border-[#E5E8ED]' />
+                        <div className='text-[#1E2819] flex gap-[15px] items-start mt-[18px]'>
+                            <span className='xl:ml-[60px]' ><BsShieldFillCheck size={25} /></span>
+                            <p className='xl:w-[299px] xl:h-[58px] text[16px] leading-[20px] font-normal nunitoNormal'>Security Poilcy: Lorem Ipsum Dolor Sit Amet Lorem Ipsum Dolor Sit Amet  </p>
+                        </div>
+                        <hr className='xl:w-[381px] xl:ml-[42px] border-[1px] border-[#E5E8ED]' />
+                </div>
+                </div>
             </div>
         </div>
         </div>
