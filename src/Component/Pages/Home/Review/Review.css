@@ -1,0 +1,18 @@
+.review{
+    background-image: 
+    linear-gradient(to left, 
+    rgba(255, 194, 106, 0.9),
+    rgba(255, 132, 37, 0.9), 
+    rgba(255, 194, 106, 0.9)), 
+    url('../../../../assets/review/bgReview.png');    
+}
+a.btn.btn-circle{
+    background: #fff !important;
+    color: #1E2819 !important;
+    border: none !important;
+}
+@media (min-width: 320px) and (max-width: 576px){
+    a.btn.btn-circle {
+            display: none !important;
+        }
+}

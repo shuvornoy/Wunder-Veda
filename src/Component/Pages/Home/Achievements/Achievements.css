@@ -1,0 +1,9 @@
+.bg_achieve{
+    background: rgba(206, 208, 200, 0.5);
+}
+.bg_photo{
+    background: rgba(206, 208, 200, 0.5);
+    border-radius: 402px 1000px 402px 402px;
+    width: 470px;
+    height: 495px;
+}

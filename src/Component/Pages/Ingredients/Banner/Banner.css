@@ -1,0 +1,8 @@
+.ing_banner{
+    background-image: url('../../../../assets/Ingredients/banner/banner.png');
+}
+@media (min-width: 320px) and (max-width: 576px) {
+    .ing_banner {
+        background-image: url("../../../../assets/Ingredients/banner/banner2.png");
+    }
+}

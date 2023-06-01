@@ -1,0 +1,10 @@
+.how_banner{
+    background-image: url("../../../../assets/how-we/banner/banner.png");
+    background-size: cover;
+}
+
+@media (min-width: 320px) and (max-width: 576px){
+    .how_banner {
+        background-image: url("../../../../assets/how-we/banner/banner1.png");
+    }
+}

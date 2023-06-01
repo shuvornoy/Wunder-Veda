@@ -1,0 +1,25 @@
+.bg_behind{
+    background-image: url('../../../../assets/how-we/behind/photo.png');
+}
+
+
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    margin-left: 608px !important;
+    margin-bottom: 223px !important;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    background: #1E2819 !important;
+}
+
+@media (min-width: 320px) and (max-width: 576px){
+    .bg_behind {
+            background-image: none;
+        }
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    margin-left: 0 !important;
+    margin-bottom: 120px !important;
+    }
+}
