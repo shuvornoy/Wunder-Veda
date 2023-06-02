@@ -80,7 +80,9 @@ const Cart = () => {
                         </div>
                     </div>
                     <hr className='xl:pl-0 mt-[4px] border-[1px] border-[#1E2819]' />
-                    <button className='text-[16px] font-bold leading-[44px] alegreyaBold xl:w-[202px] xl:h-[44px] rounded-[50px] xl:ml-[103px] xl:mt-[19px] main_btn'>CONTINUE NOW</button>
+                        <Link to='/address'>
+                            <button className='text-[16px] font-bold leading-[44px] alegreyaBold xl:w-[202px] xl:h-[44px] rounded-[50px] xl:ml-[103px] xl:mt-[19px] main_btn'>CONTINUE NOW</button>
+                        </Link>
 
                     <div className='xl:mt-[60px]'>
                         <div className='text-[#1E2819] flex gap-[15px] items-start'>

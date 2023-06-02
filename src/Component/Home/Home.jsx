@@ -16,7 +16,6 @@ import Experts from '../Pages/Home/Experts/Experts';
 const Home = () => {
     return (
         <div>
-         
             <Banner />
             <Shipping />
             <About />
@@ -25,7 +24,7 @@ const Home = () => {
             <Experts />
             <Review />
             <Achievements />
-            <Instagram /> 
+            <Instagram />  
         </div>
     );
 };

@@ -15,16 +15,16 @@ const About = () => {
                     Dignissim enim sit amet venenatis. In est ante in nibh mauris cursus mattis.</p>
                 <h2 className='md:hidden block text-[40px] leading-[40px] font-bold alegreyaBold text-start mt-[28px] w-[344px] h-[129px]'>How this product can be Beneficial for health</h2>
             </div>
-            <div className='xl:w-[1094px] w-full mx-auto md:flex block xl:justify-center justify-between items-center mt-[34px] gap-[36px] px-2 xl:px-0'>
+            <div className='xl:w-[1280px] w-full mx-auto md:flex block xl:justify-center justify-between items-center mt-[34px] xl:gap-[36px] lg:gap-4 md:gap-2 px-2 xl:px-0'>
                 <div>
                     <img className='xl:w-[619px] lg:w-[485px] md:w-[400px] xl:h-[438px] lg:h-[400px] md:h-[385px] relative' src={about} alt="about" />
                 </div>
-                <div className='xl:w-[366px] w-[172px] xl:h-[100px] h-[61px] bg-[#FFFFFF] absolute top-0 left-0 xl:mt-[191px] mt-[375px] xl:ml-[348px] ml-[11px] rounded-[13px] aboutShadow'>
+                <div className='xl:w-[366px] lg:w-[200px] w-[172px] xl:h-[100px] h-[61px] bg-[#FFFFFF] absolute top-0 left-0 xl:mt-[191px] md:mt-[180px] mt-[375px] xl:ml-[260px] ml-[11px] rounded-[13px] aboutShadow'>
                     <div className='w-full h-full flex justify-center items-center xl:gap-4 gap-2'>
                         <div className='bg-[#EBEBEB] xl:w-[43px] w-[27px] xl:h-[44px] h-[27px] rounded-full flex justify-start items-center'>
                             <img className=' xl:w-[20px] xl:h-[16px] h-[9px] xl:ml-[13px] ml-[8px]' src={icons} alt="icons" />
                         </div>
-                        <p className='xl:text-[18px] text-[12px] font-medium xl:leading-[24px] leading-[13px] xl:w-[230px] w-[117px] nunitoNormal'>Lorem ipsum dolor sit amet, consectetuer nisl ut.</p>
+                        <p className='xl:text-[18px] lg:text-[14px] text-[12px] font-medium xl:leading-[24px] leading-[13px] xl:w-[230px] lg:w-[140px] w-[117px] nunitoNormal'>Lorem ipsum dolor sit amet, consectetuer nisl ut.</p>
                     </div>
                 </div>
                 <div>
@@ -54,11 +54,11 @@ const About = () => {
                     leading-[19px]  lg:text-[14px] text-[14px] alegreyaBold'>LEARN ABOUT OUR KEY INGREDIENTS</button>
                 </div>
             </div>
-            <div className='hidden md:block'>
-                <img className='absolute top-0 right-0 xl:mt-[-170px] mt-[190px] xl:h-[542px] h-[264px]' src={left} alt="left" />
-                <img className='absolute mt-[-150px] h-[300px]' src={right} alt="right" />
+            <div className=''>
+                <img className='absolute top-0 right-0 xl:mt-[-170px] lg:mt-0 md:mt-[100px] mt-[190px] xl:h-[542px] md:h-[200px] h-[264px] hidden md:block' src={left} alt="left" />
+                <img className='absolute mt-[-150px] h-[300px] hidden xl:block' src={right} alt="right" />
             </div>
-            <div className='md:hidden block'>
+            <div className='md:hidden block '>
                 <img className='absolute top-0 right-0  mt-[200px] h-[264px]' src={right_site} alt="right_site" />
             </div>
         </div>

@@ -3,8 +3,8 @@ import shipping from '../../../../assets/shipping/shipping.png'
 
 const Shipping = () => {
     return (
-        <div className='xl:mt-[118px] mt-[32px] w-full h-[150px] relative overflow-hidden'>
-            <div className='xl:w-[1094px] w-full mx-auto md:flex justify-between gap-[20px] items-center px-2 hidden'>
+        <div className='xl:mt-[118px] mt-[32px] w-full h-[150px] relative overflow-hidden md:px-6 xl:px-0'>
+            <div className='xl:w-[1280px] w-full mx-auto md:flex justify-between xl:gap-[20px] md:gap-2 items-center px-2 hidden'>
                 <div className='mb-5 md:mb-0'>
                     <div className='flex justify-center items-center gap-2'>
                     <img className='lg:h-[57px] md:h-[40px] h-[49px]' src={shipping} alt="shipping" />

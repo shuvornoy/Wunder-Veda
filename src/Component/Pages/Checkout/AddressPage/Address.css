@@ -1,3 +1,6 @@
 .address_banner{
     background-image: url('../../../../assets/checkout/address/address.png');
 }
+.bg_address{
+    background: rgba(250, 214, 148, 0.5);
+}

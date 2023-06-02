@@ -9,10 +9,10 @@ import shipping from '../../../../assets/shipping/free.png'
 
 const Instagram = () => {
     return (
-        <div className='w-full xl:h-[432px] h-[114px] relative overflow-hidden'>
+        <div className='w-full xl:h-[432px] lg:h-[250px] md:h-[250px] h-[114px] relative overflow-hidden'>
             <div className='md:block hidden'>
-                <h2 className='alegreyaBold font-bold text-[45px] text-center leading-[54px] pt-[70px]'>Instagram</h2>
-            <div className='w-full h-[267px] flex absolute bottom-[-2px]'>
+                <h2 className='alegreyaBold font-bold text-[45px] text-center leading-[54px] xl:pt-[70px] md:pt-[50px]'>Instagram</h2>
+            <div className='w-full xl:h-[267px] flex absolute xl:bottom-[-2px] bottom-0'>
                 <div>
                     <img src={img1} alt="img1" />
                 </div>
