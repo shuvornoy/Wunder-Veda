@@ -10,9 +10,8 @@ const How = () => {
     return (
         <div>
             <Banner />
-            <Process />
-            <Behind />
-            <Instagram />
+             <Process />
+           <Behind />
         </div>
     );
 };

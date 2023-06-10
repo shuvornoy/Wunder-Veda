@@ -26,7 +26,7 @@ const Shipping = () => {
                 <div className='mb-5 md:mb-0'>
                     <div className='flex justify-center items-center gap-2'>
                     <img className='lg:h-[57px] md:h-[40px] h-[49px]' src={shipping} alt="shipping" />
-                    <h2 className='lg:w-[197px] md:w-[165px] w-[172px] lg:text-[23px] md:text-[16px] text-[21px] font-bold leading-[26px] nunitoBold'>Money Back Guarantee</h2>
+                    <h2 className='lg:w-[197px] md:w-[165px] w-[172px] lg:text-[23px] md:text-[16px] text-[21px] font-bold leading-[26px] nunitoBold'>100%  Secure Payment</h2>
                 </div>
                     <p className='xl:text-[18px] lg:text-[16px] md:text-[12px] text-[15px] font-normal leading-[24px] mt-2 nunitoBold 
                     xl:w-[259px] w-full'>Habitasse platea dictu quisque</p>
@@ -35,7 +35,7 @@ const Shipping = () => {
                 <div className='mb-5 md:mb-0'>
                     <div className='flex justify-center items-center gap-2'>
                     <img className='lg:h-[57px] md:h-[40px] h-[49px]' src={shipping} alt="shipping" />
-                    <h2 className='lg:w-[197px] md:w-[165px] w-[172px] lg:text-[23px] md:text-[16px] text-[21px] font-bold leading-[26px] nunitoBold'>Money Back Guarantee</h2>
+                    <h2 className='lg:w-[197px] md:w-[165px] w-[172px] lg:text-[23px] md:text-[16px] text-[21px] font-bold leading-[26px] nunitoBold'>24/7  Online Support</h2>
                 </div>
                     <p className='xl:text-[18px] lg:text-[16px] md:text-[12px] text-[15px] font-normal leading-[24px] mt-2 nunitoBold 
                     xl:w-[259px] w-full'>Habitasse platea dictu quisque</p>

@@ -23,8 +23,7 @@ const Home = () => {
             <ProductUsp />
             <Experts />
             <Review />
-            <Achievements />
-            <Instagram />  
+            <Achievements />  
         </div>
     );
 };

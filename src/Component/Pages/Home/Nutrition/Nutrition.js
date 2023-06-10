@@ -24,13 +24,13 @@ const Nutrition = () => {
                     
                     <div className='my-4 md:flex block gap-[30px] lg:mt-[20px] md:mt-[50px]'>
                         <div className='flex gap-4 lg:mt-0 md:mt-[20px]'>
-                            <div className='bg-[#FFFFFF] w-[43px] h-[44px] rounded-full flex justify-start items-center'>
+                            <div className='bg-[#EBEBEB] w-[43px] h-[44px] rounded-full flex justify-start items-center'>
                             <img className=' w-[19px] h-[16px] ml-[13px]' src={icon} alt="icon" />
                             </div>
                             <p className='text-[18px] font-medium leading-[24px] w-[230px] nunitoNormal'>Lorem ipsum dolor sit amet, consectetuer nisl ut.</p>
                         </div>
                         <div className='flex gap-4 mt-4 lg:mt-0'>
-                            <div className='bg-[#FFFFFF] w-[43px] h-[44px] rounded-full flex justify-start items-center'>
+                            <div className='bg-[#EBEBEB] w-[43px] h-[44px] rounded-full flex justify-start items-center'>
                             <img className=' w-[19px] h-[16px] ml-[13px]' src={icon} alt="icon" />
                             </div>
                             <p className='text-[18px] font-medium leading-[24px] w-[230px] nunitoNormal'>Lorem ipsum dolor sit amet, consectetuer nisl ut.</p>
@@ -38,13 +38,13 @@ const Nutrition = () => {
                     </div>
                     <div className='my-4 md:flex block gap-[30px]'>
                         <div className='flex gap-4'>
-                            <div className='bg-[#FFFFFF] w-[43px] h-[44px] rounded-full flex justify-start items-center'>
+                            <div className='bg-[#EBEBEB] w-[43px] h-[44px] rounded-full flex justify-start items-center'>
                             <img className=' w-[19px] h-[16px] ml-[13px]' src={icon} alt="icon" />
                             </div>
                             <p className='text-[18px] font-medium leading-[24px] w-[230px] nunitoNormal'>Lorem ipsum dolor sit amet, consectetuer nisl ut.</p>
                         </div>
                         <div className='flex gap-4 mt-4 lg:mt-0'>
-                            <div className='bg-[#FFFFFF] w-[43px] h-[44px] rounded-full flex justify-start items-center'>
+                            <div className='bg-[#EBEBEB] w-[43px] h-[44px] rounded-full flex justify-start items-center'>
                             <img className=' w-[19px] h-[16px] ml-[13px]' src={icon} alt="icon" />
                             </div>
                             <p className='text-[18px] font-medium leading-[24px] w-[230px] nunitoNormal'>Lorem ipsum dolor sit amet, consectetuer nisl ut.</p>
@@ -56,16 +56,16 @@ const Nutrition = () => {
                 <div>
                     <img className='xl:w-[616px] lg:w-[485px] xl:h-[400px] lg:h-[400px] mt-6 md:mt-0 relative hidden lg:block' src={nutrition} alt="nutrition" />
 
-                    {/* <div className='xl:w-[133px] w-[86px] xl:h-[142px] h-[91px] items-center justify-center flex absolute xl:mt-[-373px] mt-[-716px] xl:ml-[-63px] ml-[222px] bg-white rounded-[13px] aboutShadow'>
+                    <div className='xl:w-[133px] w-[86px] xl:h-[142px] h-[91px] items-center justify-center flex absolute xl:mt-[-373px] lg:mt-[-370px] md:mt-[-790px] mt-[-716px] xl:ml-[-63px] lg:ml-[-40px] md:ml-[-16px] ml-[222px] bg-white rounded-[13px] aboutShadow'>
                         <img className='xl:w-[81px] w-[52px] xl:h-[124px] h-[80px] z-10' src={mantra} alt="mantra" />
-                    </div> */}
+                    </div>
                 </div>
             </div>
-            {/* <div className='md:block hidden'>
-                <img className='absolute top-0 right-0 w-[117px] h-[115px] mt-[13%] mr-[185px]' src={img1} alt="img1" />
-                <img className='absolute top-0 right-0 w-[103px] h-[109px] mt-[18%] mr-[240px]' src={img2} alt="img2" />
-                <img className='absolute top-0 right-0 w-[58px] h-[62px] mt-[18%] mr-[180px] hidden md:block' src={img3} alt="img3" />
-            </div> */}
+            <div className='xl:block hidden'>
+                <img className='absolute top-[222px] right-[74px] w-[117px] h-[115px]' src={img1} alt="img1" />
+                <img className='absolute top-[364px] right-[133px] w-[103px] h-[109px]' src={img2} alt="img2" />
+                <img className='absolute top-[364px] right-[53px] w-[58px] h-[62px]' src={img3} alt="img3" />
+            </div>
             <div className='xl:hidden block'>
                 <img className='absolute top-[-50px] right-0 w-[100px] h-[190px] ' src={img4} alt="img4" /> 
             </div>

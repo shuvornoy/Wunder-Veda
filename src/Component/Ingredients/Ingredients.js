@@ -1,8 +1,9 @@
 import React from 'react';
-import Instagram from '../Pages/Home/Instagram/Instagram';
 import WhyYou from '../Pages/Ingredients/WhyYou/WhyYou';
 import Banner from '../Pages/Ingredients/Banner/Banner';
-import Explore from './../Pages/Ingredients/Explore/Explore';
+import ExpertsBehind from '../Pages/Ingredients/ExpertsBehind/ExpertsBehind/ExpertsBehind';
+import Explore from '../Pages/Ingredients/Explore/Explore';
+
 
 
 const Ingredients = () => {
@@ -10,9 +11,8 @@ const Ingredients = () => {
         <div>
             <Banner />
             <Explore />
-            {/* <ExpertsBehind /> */}
+            <ExpertsBehind />
             <WhyYou />
-            <Instagram /> 
         </div>
     );
 };

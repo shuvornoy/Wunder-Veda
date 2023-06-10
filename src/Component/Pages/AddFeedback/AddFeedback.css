@@ -1,0 +1,9 @@
+.feedback{
+    background-image: url('../../../assets/addfeedback/feedback.png');
+}
+.upload{
+    background: rgba(255, 255, 255, 0.75);
+}
+input.mask.mask-star.h-\[28px\] {
+    background: #F9A833 !important;
+}

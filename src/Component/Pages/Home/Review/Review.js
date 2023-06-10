@@ -24,7 +24,7 @@ const Review = () => {
                         <a href="#slide2" className="btn btn-circle">❯</a>
                     </div>
                 </div> 
-                <div id="slide2" className="carousel-item relative w-full xl:mt-[113px] md:mt-[120px] mt-[260px] left-[70px] md:left-0">
+                <div id="slide2" className="carousel-item relative w-full xl:mt-[113px] md:mt-[120px] mt-[260px] left-[35px] md:left-0">
                     <div className='xl:w-[778px] md:w-[500px] w-[343px] mx-auto xl:h-[220px] md:h-[250px] h-[293px] bg-[#FFFFFF] rounded-[13px] border-[1px] border-[#FFFFFF] relative text-center ' >
                         <h2 className='xl:mt-[57px] mt-[40px] mx-auto xl:text-[24px] text-[27px] xl:leading-[30px] leading-[42px] xl:font-normal font-bold libreNormal w-[228px]'>Hannah Schmitt</h2>
                         <p className='mt-[9px] text-[16px] xl:leading-[24px] leading-[22px] font-normal montserratNormal xl:w-[730px] md:w-[480px] w-[314px] mx-auto'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
@@ -37,7 +37,7 @@ const Review = () => {
                         <a href="#slide3" className="btn btn-circle">❯</a>
                     </div>
                 </div> 
-                <div id="slide3" className="carousel-item relative w-full xl:mt-[113px] md:mt-[120px] mt-[260px] ml-[-32] xl:ml-0 right-[-35px] md:right-0">
+                <div id="slide3" className="carousel-item relative w-full xl:mt-[113px] md:mt-[120px] mt-[260px] xl:ml-0">
                     <div className='xl:w-[778px] md:w-[500px] w-[343px] mx-auto xl:h-[220px] md:h-[250px] h-[293px] bg-[#FFFFFF] rounded-[13px] border-[1px] border-[#FFFFFF] relative text-center ' >
                         <h2 className='xl:mt-[57px] mt-[40px] mx-auto xl:text-[24px] text-[27px] xl:leading-[30px] leading-[42px] xl:font-normal font-bold libreNormal w-[228px]'>Hannah Schmitt</h2>
                         <p className='mt-[9px] text-[16px] xl:leading-[24px] leading-[22px] font-normal montserratNormal xl:w-[730px] md:w-[480px] w-[314px] mx-auto'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
@@ -50,7 +50,7 @@ const Review = () => {
                         <a href="#slide4" className="btn btn-circle">❯</a>
                     </div>
                 </div> 
-                <div id="slide4" className="carousel-item relative w-full xl:mt-[113px] md:mt-[120px] mt-[260px] left-[70px] md:left-0 right-[70px] xl:right-0">
+                <div id="slide4" className="carousel-item relative w-full xl:mt-[113px] md:mt-[120px] mt-[260px] left-[-35px] md:left-0">
                     <div className='xl:w-[778px] md:w-[500px] w-[343px] mx-auto xl:h-[220px] md:h-[250px] h-[293px] bg-[#FFFFFF] rounded-[13px] border-[1px] border-[#FFFFFF] relative text-center ' >
                         <h2 className='xl:mt-[57px] mt-[40px] mx-auto xl:text-[24px] text-[27px] xl:leading-[30px] leading-[42px] xl:font-normal font-bold libreNormal w-[228px]'>Hannah Schmitt</h2>
                         <p className='mt-[9px] text-[16px] xl:leading-[24px] leading-[22px] font-normal montserratNormal xl:w-[730px] md:w-[480px] w-[314px] mx-auto'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>

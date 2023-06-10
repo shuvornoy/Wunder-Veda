@@ -7,7 +7,8 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-      <div className="xl:w-[1280px] w-full md:h-[102px] h-[90px] mx-auto pl-6 xl:pl-0">
+      <div className='main_navbar'>
+        <div className="xl:w-[1280px] w-full md:h-[102px] h-[90px] mx-auto pl-6 xl:pl-0">
         <div className="navbar items-center">
           <div className="navbar-start">
             <img
@@ -18,18 +19,7 @@ const Navbar = () => {
           </div>
           <div className="navbar-end">
 
-          <div className="flex flex-row border-[1px] lg:hidden border-[#1E2819] rounded-[50px] xl:w-[232px]  md:w-[300px] w-[173px] md:h-[40px] h-[30px] bg-white">
-              <input
-                className=" text-[#1E2819] rounded-[40px] w-[160px] focus:outline-none relative pl-6"
-                placeholder="SEARCH"
-              />
-              <button
-                className="flex justify-center items-center rounded-[50%] text-white text-[14px] md:mt-[1px] absolute md:w-[36px] w-[28px] md:h-[36px] h-[28px] md:ml-[260px] ml-[131px] main_btn"
-                type="button"
-              >
-                <BsSearch size={16} />
-              </button>
-            </div>
+           
             <div className="dropdown">
               <label tabIndex={0} className="btn btn-ghost lg:hidden ">
                 <svg
@@ -60,12 +50,17 @@ const Navbar = () => {
                 <Link to='/how'>How We Do It</Link>
               </li>
               <li>
-                <a href="/">About Us</a>
+                <Link to="/about">About Us</Link>
               </li>
               <li>
-                <a>Contact</a>
+                <Link to="/contact">Contact</Link>
               </li>
                 <div className="ml-4">
+                  <Link to='/signup'>
+                    <button className="border-[1px] border-[#1e2819] rounded-[50px] lg:w-[143px] w-full h-[40px] bg-white">
+                      <h2 className='px-2 alegreyaBold text-[16px] font-bold'>SIGN UP NOW!</h2>
+                    </button>
+                  </Link>
                   <button className="w-full h-[40px] rounded-[50px] font-bold text-[14px] text-[#fff]  leading-[17px] main_btn mt-2">
                     <h2 className="px-2 alegreyaBold">SHOP NOW!</h2>
                   </button>
@@ -86,32 +81,24 @@ const Navbar = () => {
                 <Link to='/how'>How We Do It</Link>
               </li>
               <li>
-                <a href='/'>About Us</a>
+                <Link to='/about'>About Us</Link>
               </li>
               <li>
-                <a href='/'>Contact</a>
+                <Link to='/contact'>Contact</Link>
               </li>
             </ul>
           </div>
-          <div className="xl:gap-8 lg:gap-4 lg:flex hidden pr-6 xl:pr-0">
-            <div className="flex flex-row border-[2px]  border-[#1e2819] rounded-[50px] xl:w-[232px] lg:w-[220px] md:w-[400px] w-[173px] lg:h-[42px] md:h-[50px] h-[30px] bg-white">
-              <input
-                className=" text-gray-600 rounded-[40px] md:w-[248px] w-[173px] focus:outline-none relative pl-6"
-                placeholder="SEARCH"
-              />
+          <div className="xl:gap-[12px] lg:gap-4 lg:flex hidden pr-6 xl:pr-0">
+            <Link to='/signup'>
+              <button className="border-[1px] border-[#1e2819] rounded-[50px] lg:w-[143px] md:w-[100px] w-[173px] lg:h-[45px] md:h-[50px] h-[30px] bg-white"><h2 className='px-2 alegreyaBold text-[16px] font-bold'>SIGN UP NOW!</h2></button>
+            </Link>
 
-              <button
-                className="flex justify-center items-center rounded-[50%] text-white  text-[14px] absolute w-[38px] h-[37px] xl:ml-[188px] lg:ml-[176px] main_btn"
-                type="button"
-              >
-                <BsSearch size={16} />
-              </button>
-            </div>
-            <button className="w-[138px] h-[45px] rounded-[50px] font-bold text-[14px] text-[#fff] lg:block hidden leading-[17px] main_btn">
+              <button className="w-[138px] h-[45px] rounded-[50px] font-bold text-[14px] text-[#fff] lg:block hidden leading-[17px] main_btn">
               <h2 className="px-2 alegreyaBold">SHOP NOW!</h2>
             </button>
           </div>
         </div>
+      </div>
       </div>
     );
 };

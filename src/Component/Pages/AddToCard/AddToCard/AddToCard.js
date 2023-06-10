@@ -14,23 +14,24 @@ import { Link } from 'react-router-dom';
 
 const AddToCard = () => {
     return (
-        <div className='xl:h-[988px] xl:w-[1280px] mx-auto'>
+        <div>
+            <div className='xl:h-[988px] xl:w-[1280px] mx-auto px-6 xl:px-0'>
             <h2 className='xl:text-[16px] font-bold leading-[19px] xl:mt-[72px] alegreyaMedium'>Home / Product NAME</h2>
-            <div className='mt-[17px] xl:flex block justify-between xl:gap-[33px]'>
+            <div className='mt-[17px] lg:flex block justify-between xl:gap-[33px] lg:gap-[20px]'>
                 <div>
-                    <img className='xl:w-[663] xl:h-[585px]' src={add} alt="add" />
-                    <div className='mt-[26px] xl:gap-[21px] flex'>
-                        <img className='xl:w-[150px] xl:h-[137px]' src={img} alt="img" />
-                        <img className='xl:w-[150px] xl:h-[137px]' src={img} alt="img" />
-                        <img className='xl:w-[150px] xl:h-[137px]' src={img} alt="img" />
-                        <img className='xl:w-[150px] xl:h-[137px]' src={img} alt="img" />
+                    <img className='xl:w-[663px] lg:w-[430px] w-full xl:h-[585px] lg:h-[300px]' src={add} alt="add" />
+                    <div className='mt-[26px] xl:gap-[21px] lg:gap-[10px] md:flex md:justify-between lg:justify-start hidden'>
+                        <img className='xl:w-[150px] lg:w-[100px] xl:h-[137px] lg:h-[100px]' src={img} alt="img" />
+                        <img className='xl:w-[150px] lg:w-[100px] xl:h-[137px] lg:h-[100px]' src={img} alt="img" />
+                        <img className='xl:w-[150px] lg:w-[100px] xl:h-[137px] lg:h-[100px]' src={img} alt="img" />
+                        <img className='xl:w-[150px] lg:w-[100px] xl:h-[137px] lg:h-[100px]' src={img} alt="img" />
                     </div>
                 </div>
                 <div className=''>
                     <div>
-                        <h2 className='xl:w-[563px] xl:h-[115px] xl:text-[45px] font-bold xl:leading-[54px] alegreyaBold'>Product Name | Lorem Ipsum Dolor Sit Amit</h2>
+                        <h2 className='xl:w-[563px] w-full xl:h-[115px] xl:text-[45px] lg:text-[28px] md:text-[35px] text-[30px] font-bold xl:leading-[54px] alegreyaBold'>Product Name | Lorem Ipsum Dolor Sit Amit</h2>
                     </div>
-                    <div className='flex justify-between xl:w-[586px]'>
+                    <div className='md:flex justify-between xl:w-[586px]'>
                         <div className='flex gap-[14px] items-center'>
                             <h2 className='xl:text-[35px] font-extrabold xl:leading-[45px] nunitoextra'>$15.50</h2>
                             <p className='text-[#787A80] font-bold leading-[150%] text-[18px] nunitoNormal'><s>$31.00</s></p>
@@ -45,45 +46,46 @@ const AddToCard = () => {
                                     <input type="radio" name="rating-1" className="mask mask-star" />
                                     <input type="radio" name="rating-1" className="mask mask-star" />
                                 </div>
-                                <p className='text-end text-[14px] font-medium leading-[19px] text-[#1E2819] nunitoNormal'>58 Reviews</p>
+                                <p className='md:text-end text-[14px] font-medium leading-[19px] text-[#1E2819] nunitoNormal'>58 Reviews</p>
                         </div>
                     </div>
-                    <p className='xl:text-[18px] font-medium xl:leading-[24px] xl:my-[27px] xl:h-[82px] xl:w-[586px] nunitoNormal'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.</p>
+                    <p className='md:text-[18px] font-medium xl:leading-[24px] xl:my-[27px] xl:h-[82px] xl:w-[586px] lg:w-[500px] w-full nunitoNormal mt-3'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.</p>
                     
-                    <div className='mt-[27px] xl:grid xl:grid-cols-3 items-center xl:gap-[20px]'>
-                        <div className='flex items-center gap-[11px]'>
-                            <img className='xl:w-[56px] xl:h-[56px]' src={icon} alt="icon" />
-                            <p className='xl:w-[96px] xl:h-[54px] text-[18px] font-medium leading-[20px] alegreyaNormal text-[#1E2819]'>Key Benefit II Lorem Ipsum</p>
+                    <div className='mt-[27px] grid md:grid-cols-3 items-center xl:gap-[20px]'>
+                        <div className='flex items-center xl:gap-[11px] lg:gap-[6px] gap-3 mt-[16px] md:mt-0'>
+                            <img className='lg:w-[56px] md:w-[40px] lg:h-[56px] md:h-[40px]' src={icon} alt="icon" />
+                            <p className='lg:w-[96px] w-full xl:h-[54px] xl:text-[18px] lg:text-[16px] text-[18px] font-medium leading-[20px] alegreyaNormal text-[#1E2819]'>Key Benefit II Lorem Ipsum</p>
                         </div>
-                        <div className='flex items-center gap-[11px]'>
-                            <img className='xl:w-[56px] xl:h-[56px]' src={icon} alt="icon" />
-                            <p className='xl:w-[96px] xl:h-[54px] text-[18px] font-medium leading-[20px] alegreyaNormal text-[#1E2819]'>Key Benefit II Lorem Ipsum</p>
+                       <div className='flex items-center xl:gap-[11px] lg:gap-[6px] gap-3 mt-[16px] md:mt-0'>
+                             <img className='lg:w-[56px] md:w-[40px] lg:h-[56px] md:h-[40px]' src={icon} alt="icon" />
+                            <p className='lg:w-[96px] w-full xl:h-[54px] xl:text-[18px] lg:text-[16px] text-[18px] font-medium leading-[20px] alegreyaNormal text-[#1E2819]'>Key Benefit II Lorem Ipsum</p>
                         </div>
-                        <div className='flex items-center gap-[11px]'>
-                            <img className='xl:w-[56px] xl:h-[56px]' src={icon} alt="icon" />
-                            <p className='xl:w-[96px] xl:h-[54px] text-[18px] font-medium leading-[20px] alegreyaNormal text-[#1E2819]'>Key Benefit II Lorem Ipsum</p>
+                       <div className='flex items-center xl:gap-[11px] lg:gap-[6px] gap-3 mt-[16px] md:mt-0'>
+                             <img className='lg:w-[56px] md:w-[40px] lg:h-[56px] md:h-[40px]' src={icon} alt="icon" />
+                            <p className='lg:w-[96px] w-full xl:h-[54px] xl:text-[18px] lg:text-[16px] text-[18px] font-medium leading-[20px] alegreyaNormal text-[#1E2819]'>Key Benefit II Lorem Ipsum</p>
                         </div>
-                        <div className='flex items-center gap-[11px]'>
-                            <img className='xl:w-[56px] xl:h-[56px]' src={icon} alt="icon" />
-                            <p className='xl:w-[96px] xl:h-[54px] text-[18px] font-medium leading-[20px] alegreyaNormal text-[#1E2819]'>Key Benefit II Lorem Ipsum</p>
+                        <div className='flex items-center xl:gap-[11px] lg:gap-[6px] gap-3 mt-[16px]'>
+                          
+                            <img className='lg:w-[56px] md:w-[40px] lg:h-[56px] md:h-[40px]' src={icon} alt="icon" />
+                            <p className='lg:w-[96px] w-full xl:h-[54px] xl:text-[18px] lg:text-[16px] text-[18px] font-medium leading-[20px] alegreyaNormal text-[#1E2819]'>Key Benefit II Lorem Ipsum</p>
                         </div>
-                        <div className='flex items-center gap-[11px]'>
-                            <img className='xl:w-[56px] xl:h-[56px]' src={icon} alt="icon" />
-                            <p className='xl:w-[96px] xl:h-[54px] text-[18px] font-medium leading-[20px] alegreyaNormal text-[#1E2819]'>Key Benefit II Lorem Ipsum</p>
+                         <div className='flex items-center xl:gap-[11px] lg:gap-[6px] gap-3 mt-[16px]'>
+                             <img className='lg:w-[56px] md:w-[40px] lg:h-[56px] md:h-[40px]' src={icon} alt="icon" />
+                            <p className='lg:w-[96px] w-full xl:h-[54px] xl:text-[18px] lg:text-[16px] text-[18px] font-medium leading-[20px] alegreyaNormal text-[#1E2819]'>Key Benefit II Lorem Ipsum</p>
                         </div>
-                        <div className='flex items-center gap-[11px]'>
-                            <img className='xl:w-[56px] xl:h-[56px]' src={icon} alt="icon" />
-                            <p className='xl:w-[96px] xl:h-[54px] text-[18px] font-medium leading-[20px] alegreyaNormal text-[#1E2819]'>Key Benefit II Lorem Ipsum</p>
+                       <div className='flex items-center xl:gap-[11px] lg:gap-[6px] gap-3 mt-[16px]'>
+                            <img className='lg:w-[56px] md:w-[40px] lg:h-[56px] md:h-[40px]' src={icon} alt="icon" />
+                            <p className='lg:w-[96px] w-full xl:h-[54px] xl:text-[18px] lg:text-[16px] text-[18px] font-medium leading-[20px] alegreyaNormal text-[#1E2819]'>Key Benefit II Lorem Ipsum</p>
                         </div>
                     </div>
 
-                    <div className='mt-[34px] flex gap-[23px]'>
+                    <div className='mt-[34px] md:flex gap-[23px]  items-center'>
                         <div className=''>
-                            <input className='xl:w-[87px] xl:h-[44px] bg-[#FFFFFF] border-[1px] border-[#D7DADD] rounded-[50px] flex justify-center items-center px-4'  type="number" />
+                            <input className='w-[87px] h-[44px] bg-[#FFFFFF] border-[1px] border-[#D7DADD] rounded-[50px] flex justify-center items-center px-4'  type="number" />
                         </div>
 
                         { /*============= modal Start ===========*/}
-                        <label htmlFor="my-modal-3" className='xl:w-[264px] xl:h-[44px] main_btn rounded-[50px] flex justify-center items-center btn border-none'> <span className='mr-[9px]'>
+                        <label htmlFor="my-modal-3" className='xl:w-[264px] xl:h-[44px] main_btn rounded-[50px] flex justify-center items-center btn border-none mt-[16px] md:mt-0'> <span className='mr-[9px]'>
                             <img className='w-[15px] h-[14px]' src={card} alt="card" /></span>
                             <p className='text-[16px] font-bold alegreyaBold'>Add to cart</p>
                         </label>
@@ -121,14 +123,15 @@ const AddToCard = () => {
                         </div>
                         { /*============= modal end ===========*/}
                         
-                        <div className='xl:w-[166px] xl:h-[44px] bg-[#FFFFFF] border-[1px] border-[#1E2819] rounded-[50px] flex justify-center items-center'>
+                        <div className='md:w-[166px] w-full h-[44px] bg-[#FFFFFF] border-[1px] border-[#1E2819] rounded-[50px] flex justify-center items-center mt-[16px] md:mt-0'>
                             <span className='mr-[9px]'>
-                            <img className='w-[15px] h-[14px]' src={love} alt="love" /></span>
+                                    <img className='w-[15px] h-[14px]' src={love} alt="love" />
+                            </span>
                             <p className='text-[16px] font-bold alegreyaBold uppercase'>Favourite</p>
                         </div>
                     </div>
                     {/*==== Share ======*/}
-                    <div className='xl:mt-[44px] text-[#1E2819] flex gap-[22px] items-center'>
+                    <div className='mt-[44px] text-[#1E2819] flex gap-[22px] items-center'>
                         <h2 className='text-[18px] font-medium leading-[20px] alegreyaMedium'>Share:</h2>
                         <span><FaFacebookF size={16} /></span>
                         <span><FaTwitter size={16} /></span>
@@ -136,13 +139,14 @@ const AddToCard = () => {
                     </div>
                      {/*====Modal Start======*/}
                     <hr className='xl:w-[525px] mt-[36px]' />
-                    <div className='xl:mt-[34px] flex items-center xl:gap-[24px]'>
-                        <img className='xl:w-[120px] xl:h-[64px]' src={visa} alt="visa" />
-                        <img className='xl:w-[120px] xl:h-[64px]' src={master} alt="master" />
-                        <img className='xl:w-[120px] xl:h-[64px]' src={paypal} alt="paypal" />
+                    <div className='mt-[34px] md:flex items-center gap-[24px]'>
+                        <img className='xl:w-[120px] w-full xl:h-[64px]' src={visa} alt="visa" />
+                        <img className='xl:w-[120px] w-full xl:h-[64px] mt-[16px] xl:mt-0' src={master} alt="master" />
+                        <img className='xl:w-[120px] w-full xl:h-[64px] mt-[16px] xl:mt-0' src={paypal} alt="paypal" />
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 };

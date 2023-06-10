@@ -10,6 +10,7 @@ import img from '../../../../assets/experts/image 18.png';
 import aboutus from '../../../../assets/experts/aboutus.png';
 import group from '../../../../assets/experts/Group.png';
 import pngegg from '../../../../assets/experts/pngegg.png';
+import name from '../../../../assets/experts/name.png';
 import './Expert.css'
 
 
@@ -217,7 +218,8 @@ const Experts = () => {
           </div>
           <div>
               <img className='absolute xl:w-[160px] w-[60px] xl:h-[542px] h-[210px] xl:right-0 right-0 xl:mt-[-1050px] lg:mt-[-850px] md:mt-[-400px] mt-[-200px]' src={group} alt="group" />
-              <img className='absolute xl:top-[100px] lg:top-[98px] top-[860px] xl:right-[176px] lg:right-[60px] right-[60px] xl:w-[221px] w-[85px] xl:h-[165px] h-[63px]' src={pngegg} alt="pngegg" />
+              <img className='absolute xl:top-[100px] lg:top-[98px] top-[860px] xl:right-[176px] lg:right-[60px] right-[60px] xl:w-[221px] w-[85px] xl:h-[165px] h-[63px] z-10' src={pngegg} alt="pngegg" />
+              <img className='absolute xl:h-[134px] lg:h-[60px] md:h-[50px] h-[50px] md:right-0 right-14 xl:top-[780px] lg:top-[700px] md:top-[970px] top-[870px]' src={name} alt="name" />
                
           </div>
     </div>

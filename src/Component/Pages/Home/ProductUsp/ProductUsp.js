@@ -32,7 +32,7 @@ const ProductUsp = () => {
 
                     <div className='xl:w-[335px] lg:w-[300px] md:w-[200px] w-[335px] flex items-center md:block gap-3 md:gap-0'>
                         <div className='flex justify-between items-center'>
-                            <h2 className='xl:text-[80px] lg:text-[60px] md:text-[40px] text-[80px] font-medium leading-[96px] alegreyaMedium w-[134px] h-[74px] md:block hidden'>01</h2>
+                            <h2 className='xl:text-[80px] lg:text-[60px] md:text-[40px] text-[80px] font-medium leading-[96px] alegreyaMedium w-[134px] h-[74px] md:block hidden'>03</h2>
                             <img className='xl:w-[96px] lg:w-[60px] md:w-[40px] w-[79px] xl:h-[92px] lg:h-[60px] md:h-[40px] h-[76] md:mt-6' src={icon} alt="icon" />
                         </div>
                         <p className='xl:text-[18px] md:text-[16px] text-[16px] font-normal leading-[24px] nunitoNormal mt-[22px] xl:w-[363px] lg:w-[300px] md:w-[200px]
@@ -55,8 +55,8 @@ const ProductUsp = () => {
 
                 <div className='mt-[-32px]'>
                     <div className='xl:w-[335px] lg:w-[300px] md:w-[200px] w-[335px] flex items-center md:block gap-3 md:gap-0'>
-                        <div className='flex justify-between items-center'>
-                            <h2 className='xl:text-[80px] lg:text-[60px] md:text-[40px] text-[80px] font-medium leading-[96px] alegreyaMedium w-[134px] h-[74px] md:block hidden'>01</h2>
+                        <div className='flex justify-between items-center flex-row-reverse'>
+                            <h2 className='xl:text-[80px] lg:text-[60px] md:text-[40px] text-[80px] font-medium leading-[96px] alegreyaMedium w-[134px] h-[74px] md:block hidden'>02</h2>
                             <img className='xl:w-[96px] lg:w-[60px] md:w-[40px] w-[79px] xl:h-[92px] lg:h-[60px] md:h-[40px] h-[76] md:mt-6' src={icon} alt="icon" />
                         </div>
                         <p className='xl:text-[18px] md:text-[16px] text-[16px] font-normal leading-[24px] nunitoNormal mt-[22px] xl:w-[363px] lg:w-[300px] md:w-[200px]
@@ -65,8 +65,8 @@ const ProductUsp = () => {
                     </div>
 
                     <div className='xl:w-[335px] lg:w-[300px] md:w-[200px] w-[335px] flex items-center md:block gap-3 md:gap-0'>
-                        <div className='flex justify-between items-center'>
-                            <h2 className='xl:text-[80px] lg:text-[60px] md:text-[40px] text-[80px] font-medium leading-[96px] alegreyaMedium w-[134px] h-[74px] md:block hidden'>01</h2>
+                        <div className='flex justify-between items-center flex-row-reverse'>
+                            <h2 className='xl:text-[80px] lg:text-[60px] md:text-[40px] text-[80px] font-medium leading-[96px] alegreyaMedium w-[134px] h-[74px] md:block hidden'>04</h2>
                             <img className='xl:w-[96px] lg:w-[60px] md:w-[40px] w-[79px] xl:h-[92px] lg:h-[60px] md:h-[40px] h-[76] md:mt-6' src={icon} alt="icon" />
                         </div>
                         <p className='xl:text-[18px] md:text-[16px] text-[16px] font-normal leading-[24px] nunitoNormal mt-[22px] xl:w-[363px] lg:w-[300px] md:w-[200px]
