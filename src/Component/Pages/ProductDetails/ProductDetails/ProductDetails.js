@@ -8,7 +8,10 @@ import visa from '../../../../assets/addToCard/visa.png';
 import master from '../../../../assets/addToCard/master-card.png';
 import paypal from '../../../../assets/addToCard/pay-pal.png';
 import product from '../../../../assets/addToCard/product.png';
-import site from '../../../../assets/product/site.png'
+import site from '../../../../assets/product/site.png';
+import img1 from '../../../../assets/product/img1.png';
+import img2 from '../../../../assets/product/img2.png';
+import img3 from '../../../../assets/product/img3.png';
 import { FaFacebookF, FaTwitter, FaPinterestP } from 'react-icons/fa';
 import './ProductDetails.css'
 import { Link } from 'react-router-dom';
@@ -20,7 +23,7 @@ const ProductDetails = () => {
             <h2 className='xl:text-[16px] font-bold leading-[19px] xl:mt-[72px] alegreyaMedium'>Home / Product NAME</h2>
             <div className='mt-[17px] lg:flex block justify-between xl:gap-[33px] lg:gap-[20px]'>
                 <div>
-                    <img className='xl:w-[663px] lg:w-[430px] w-full xl:h-[585px] lg:h-[300px]' src={add} alt="add" />
+                    <img className='xl:w-[663px] lg:w-[430px] w-full xl:h-[640px] lg:h-[300px]' src={add} alt="add" />
                     <div className='mt-[26px] xl:gap-[21px] lg:gap-[10px] md:flex md:justify-between lg:justify-start hidden'>
                         <img className='xl:w-[150px] lg:w-[100px] xl:h-[137px] lg:h-[100px]' src={img} alt="img" />
                         <img className='xl:w-[150px] lg:w-[100px] xl:h-[137px] lg:h-[100px]' src={img} alt="img" />
@@ -30,15 +33,11 @@ const ProductDetails = () => {
                 </div>
                 <div className=''>
                     <div>
-                        <h2 className='xl:w-[563px] w-full xl:h-[115px] xl:text-[45px] lg:text-[28px] md:text-[35px] text-[30px] font-bold xl:leading-[54px] alegreyaBold'>Product Name | Lorem Ipsum Dolor Sit Amit</h2>
+                        <h2 className='xl:w-[563px] w-full xl:text-[45px] lg:text-[28px] md:text-[35px] text-[30px] font-bold xl:leading-[54px] alegreyaBold'>Product Name | Lorem Ipsum</h2>
                     </div>
-                    <div className='md:flex justify-between xl:w-[586px]'>
-                        <div className='flex gap-[14px] items-center'>
-                            <h2 className='xl:text-[35px] font-extrabold xl:leading-[45px] nunitoextra'>$15.50</h2>
-                            <p className='text-[#787A80] font-bold leading-[150%] text-[18px] nunitoNormal'><s>$31.00</s></p>
-                            <p className='xl:w-[58px] xl:h-[28px] bg-[#E70613] rounded-[4px] text-center text-white text-[16px] font-bold nunitoNormal'>-50%</p>
-                        </div>
-                        <div>
+                    
+                     
+                        <div className='flex items-center gap-3 mt-[26px]'>
                           
                                 <div className="rating">
                                     <input type="radio" name="rating-1" className="mask mask-star" />
@@ -47,9 +46,9 @@ const ProductDetails = () => {
                                     <input type="radio" name="rating-1" className="mask mask-star" />
                                     <input type="radio" name="rating-1" className="mask mask-star" />
                                 </div>
-                                <p className='md:text-end text-[14px] font-medium leading-[19px] text-[#1E2819] nunitoNormal'>58 Reviews</p>
+                                <p className='text-[14px] font-medium leading-[19px] text-[#1E2819] nunitoNormal'>58 Reviews</p>
                         </div>
-                    </div>
+                    
                     <p className='md:text-[18px] font-medium xl:leading-[24px] xl:my-[27px] xl:h-[82px] xl:w-[586px] lg:w-[500px] w-full nunitoNormal mt-3'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.</p>
                     
                     <div className='mt-[27px] grid md:grid-cols-3 items-center xl:gap-[20px]'>
@@ -78,7 +77,23 @@ const ProductDetails = () => {
                             <img className='lg:w-[56px] md:w-[40px] lg:h-[56px] md:h-[40px]' src={icon} alt="icon" />
                             <p className='lg:w-[96px] w-full xl:h-[54px] xl:text-[18px] lg:text-[16px] text-[18px] font-medium leading-[20px] alegreyaNormal text-[#1E2819]'>Key Benefit II Lorem Ipsum</p>
                         </div>
-                    </div>
+                        </div>
+                        <div className='mt-[34px] flex items-center gap-6'>
+                            <p className='text-[18px] leading-5 font-medium nunitoMedium'>Packs:</p>
+                            <div className='flex items-center gap-3'>
+                                <img src={img1} alt="img1" />
+                                <img src={img2} alt="img2" />
+                                <img src={img3} alt="img3" />
+                            </div>
+                        </div>
+                        
+                       <div className='flex gap-[14px] items-center mt-[17px]'>
+                            <h2 className='xl:text-[35px] font-extrabold xl:leading-[45px] nunitoextra'>$15.50</h2>
+                            <p className='text-[#787A80] font-bold leading-[150%] text-[18px] nunitoNormal'><s>$31.00</s></p>
+                            <p className='xl:w-[58px] xl:h-[28px] bg-[#E70613] rounded-[4px] text-center text-white text-[16px] font-bold nunitoNormal'>-50%</p>
+                        </div>
+
+                        
 
                     <div className='mt-[34px] md:flex gap-[23px]  items-center'>
                         <div className=''>
@@ -132,18 +147,18 @@ const ProductDetails = () => {
                         </div>
                     </div>
                     {/*==== Share ======*/}
-                    <div className='mt-[44px] text-[#1E2819] flex gap-[22px] items-center'>
+                    <div className='mt-[30px] text-[#1E2819] flex gap-[22px] items-center'>
                         <h2 className='text-[18px] font-medium leading-[20px] alegreyaMedium'>Share:</h2>
                         <span><FaFacebookF size={16} /></span>
                         <span><FaTwitter size={16} /></span>
                         <span><FaPinterestP size={16} /></span>
                     </div>
                      {/*====Modal Start======*/}
-                    <hr className='xl:w-[525px] mt-[36px]' />
+                    <hr className='xl:w-[525px] mt-[30px]' />
                     <div className='mt-[34px] md:flex items-center gap-[24px]'>
                         <img className='xl:w-[120px] w-full xl:h-[64px]' src={visa} alt="visa" />
-                        <img className='xl:w-[120px] w-full xl:h-[64px] mt-[16px] xl:mt-0' src={master} alt="master" />
-                        <img className='xl:w-[120px] w-full xl:h-[64px] mt-[16px] xl:mt-0' src={paypal} alt="paypal" />
+                        <img className='xl:w-[120px] w-full xl:h-[64px] mt-[16px] md:mt-0' src={master} alt="master" />
+                        <img className='xl:w-[120px] w-full xl:h-[64px] mt-[16px] md:mt-0' src={paypal} alt="paypal" />
                     </div>
                 </div>
             </div>

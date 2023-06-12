@@ -5,16 +5,20 @@ import OurProduct from '../Pages/ProductDetails/OurProduct/OurProduct';
 import Lorem from '../Pages/ProductDetails/Lorem/Lorem';
 import For from '../Pages/ProductDetails/For/For';
 import WhyYou from '../Pages/Ingredients/WhyYou/WhyYou';
+import Experts from '../Pages/Home/Experts/Experts';
+import Review from '../Pages/Home/Review/Review';
 
 const Product = () => {
     return (
         <div>
             <ProductDetails />
-            {/* <Consume />
+            <Consume />
             <WhyYou />
             <OurProduct />
             <Lorem />
-            <For /> */}
+            <For /> 
+            <Experts />
+            <Review />
         </div>
     );
 };

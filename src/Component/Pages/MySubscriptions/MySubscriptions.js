@@ -59,12 +59,12 @@ const MySubscriptions = () => {
                             <label class="toggle md:ml-[30%] ml-[40%] border-none">
                                 <input class="toggle-checkbox" type="checkbox" />
                                 <div class="toggle-switch">
-                                    <span className='ml-2 text-[14px] font-medium alegreyaMedium'>ON</span> 
+                                    <span className='ml-[4px] text-[14px] font-medium alegreyaMedium'>ON</span> 
                                 </div>
                             </label>
                             <div className='mt-2 flex items-center justify-center gap-2'>
                                 <label className="cursor-pointer label">
-                                    <input type="checkbox" className="w-[17px] rounded-[2px] h-[15px] checkbox checkbox-success bg-[#219653]] text-white" />
+                                    <input type="checkbox" id="myCheck" className="w-[17px] rounded-[2px] h-[15px] checkbox checkbox-success bg-[#219653] text-white border-none" />
                                 </label>
                              
                                 <h2 className='lg:text-[25px] md:text-[18px] text-[28px] font-bold leading-[26px] alegreyaBold text-center'>Active</h2>
@@ -102,15 +102,15 @@ const MySubscriptions = () => {
                         </div>
                         <div className='md:w-[147px] mx-auto w-full mt-[16px] md:mt-0'>
                             <p className='text-[14px] text-center font-medium leading-6 nunitoMedium'>Statusp </p>
-                            <label class="toggle md:ml-[30%] ml-[40%] border-none">
+                           <label class="toggle md:ml-[30%] ml-[40%] border-none">
                                 <input class="toggle-checkbox" type="checkbox" />
                                 <div class="toggle-switch">
-                                    <span className='ml-2 text-[14px] font-medium alegreyaMedium'>ON</span> 
+                                    <span className='ml-[4px] text-[14px] font-medium alegreyaMedium'>ON</span> 
                                 </div>
                             </label>
                             <div className='mt-2 flex items-center justify-center gap-2'>
                                 <label className="cursor-pointer label">
-                                    <input type="checkbox" className="w-[17px] rounded-[2px] h-[15px] checkbox checkbox-success bg-[#219653]] text-white" />
+                                    <input type="checkbox" id="myCheck" className="w-[17px] rounded-[2px] h-[15px] checkbox checkbox-success bg-[#219653] text-white border-none" />
                                 </label>
                              
                                 <h2 className='lg:text-[25px] md:text-[18px] text-[28px] font-bold leading-[26px] alegreyaBold text-center'>Active</h2>
@@ -122,7 +122,7 @@ const MySubscriptions = () => {
             </div>
             
             { /*============ Recent Plan ===========*/ }
-            <div className='mt-[107px]'>
+            <div className='xl:mt-[107px] lg:mt-0 mt-[50px]'>
                 <Inactive />
             </div>
 
@@ -183,6 +183,7 @@ const MySubscriptions = () => {
                    
                 </div>
             </div>
+            
 
 
 

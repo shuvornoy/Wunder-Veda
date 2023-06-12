@@ -53,17 +53,17 @@ const Payment = () => {
                             <div className='md:ml-[25px] mt-[31px] px-6 md:px-0'>
                                 <div className='md:flex block items-center gap-4'>
                                     <h2 className='text-[17px] font-normal leading-[20px] nunitoNormal'>Enter Credit Card Number</h2>
-                                    <input className='xl:w-[554px] lg:w-[370px] md:w-[495px] w-full h-[44px] rounded-[10px]' type="text" />
+                                    <input className='xl:w-[554px] lg:w-[370px] md:w-[495px] w-full h-[44px] rounded-[10px] px-6' type="text" />
                                 </div>
 
                                 <div className='md:flex block items-center gap-[36px]'>
                                     <div className='md:flex block items-center gap-3 mt-[26px]'>
                                         <h2 className='text-[17px] font-normal leading-[20px] nunitoNormal'>Expiry Date</h2>
-                                        <input className='xl:w-[265px] lg:w-[174px] md:w-[235px] w-full h-[44px] rounded-[10px]' type="text" />
+                                        <input className='xl:w-[265px] lg:w-[174px] md:w-[235px] w-full h-[44px] rounded-[10px] px6' type="text" />
                                     </div>
                                     <div className='md:flex block items-center gap-3 mt-[26px]'>
                                         <h2 className='text-[17px] font-normal leading-[20px] nunitoNormal'>Expiry Date</h2>
-                                        <input className='xl:w-[265px] lg:w-[174px] md:w-[235px] w-full h-[44px] rounded-[10px]' type="text" />
+                                        <input className='xl:w-[265px] lg:w-[174px] md:w-[235px] w-full h-[44px] rounded-[10px] px-6' type="text" />
                                     </div>
                                 </div>
                                 <div className='mt-[24px] mx-auto md:flex block items-center justify-between px-6 md:px-0 md:mr-[45px]'>

@@ -1,0 +1,8 @@
+.work_img{
+    background-image: url('../../../../assets/Aboutus/icon.png');
+    width: 95px;
+    height: 94px;
+}
+.work_img:hover{
+    background-image: url('../../../../assets/Aboutus/icon2.png');
+}

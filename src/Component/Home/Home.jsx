@@ -11,6 +11,7 @@ import Achievements from '../Pages/Home/Achievements/Achievements';
 import Review from '../Pages/Home/Review/Review';
 import ProductUsp from '../Pages/Home/ProductUsp/ProductUsp';
 import Experts from '../Pages/Home/Experts/Experts';
+import Faq from '../Pages/Home/Faq/Faq';
 
 
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
             <Experts />
             <Review />
             <Achievements />  
+            <Faq />
         </div>
     );
 };

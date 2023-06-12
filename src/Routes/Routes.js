@@ -34,65 +34,71 @@ const router = createBrowserRouter([
             path: "/",
             element: <Home />,
          },
+        
+         {
+            path: "/product",
+            element: <Product />,
+         },
+         
+
+              
+         /*==================Done====================*/
+         {
+            path: "/about",
+            element: <About />,
+         },
+          
+          {
+            path: "/ingredients",
+            element: <Ingredients />,
+         },
          {
             path: "/how",
             element: <How />,
          },
          {
-            path: "/ingredients",
-            element: <Ingredients />,
-         },
-         {
-            path: "/about",
-            element: <About />,
-         },
-         {
-            path: "/product",
-            element: <Product />,
-         },
-
-         {
             path: "/addtocard",
             element: <AddToCard />,
+         },
+            
+         {
+            path: "/cart",
+            element: <Cart />,
+         },
+         {
+            path: "/address",
+            element: <Address />,
+         }, 
+         {
+            path: "/select",
+            element: <SelectAddress />,
          },
          {
             path: "/address-select",
             element: <AddressSelect />,
          },
          {
-            path: "/address",
-            element: <Address />,
+            path: "/payment",
+            element: <Payment />,
          },
          {
             path: "/order",
             element: <MyOrder />,
          },
          {
-            path: "/subscriptions",
-            element: <MySubscriptions />,
+            path: "/details",
+            element: <OrderDetails />,
          },
          {
-            path: "/select",
-            element: <SelectAddress />,
-         },
-         {
-            path: "/Payment",
-            element: <Payment />,
-         },
-         {
-            path: "/cart",
-            element: <Cart />,
+            path: "/welcome",
+            element: <Login />,
          },
          {
             path: "/signup",
             element: <Signup />,
          },
          {
-            path: "/login",
-            element: <Login />,
-         },
-         {
-            path: "/loginnow",
+            path: "/reset",
             element: <LoginNow />,
          },
          {
@@ -104,8 +110,8 @@ const router = createBrowserRouter([
             element: <Otp />,
          },
          {
-            path: "/details",
-            element: <OrderDetails />,
+            path: "/subscriptions",
+            element: <MySubscriptions />,
          },
          {
             path: "/contact",

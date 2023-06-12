@@ -17,50 +17,42 @@ const SelectAddress = () => {
                 <h2 className='w-full h-full flex items-center justify-center xl:text-[80px] text-[50px] xl:leading-[90px] leading-[55px] font-bold text-[#1E2819] alegreyaBold'>Checkout</h2>
                
             </div>
-              <div className='max-w-screen-xl xl:h-[1000px] lg:h-[750px] md:h-[1200px] h-[1700px] mx-auto'>
+              <div className='md:max-w-screen-xl w-full xl:h-[750px] lg:h-[750px] md:h-[1200px] h-[1700px] mx-auto'>
                 <div className="lg:flex block xl:py-[113px] gap-[32px]">
                     <div>
-                        <div className="xl:w-[838px] lg:w-[660px] w-full xl:h-[725px] lg:h-[725px] md:h-[730px] h-[1134px]  border-solid border-[1px] border-[#1E2819] bg-[#FBD895]">
+                        <div className="xl:w-[838px] lg:w-[660px] w-full xl:h-[609px] lg:h-[725px] md:h-[730px] h-[1134px]  border-solid border-[1px] border-[#1E2819] bg-[#FBD895]">
                             <div className='flex items-center'>
-                                 <h2 className='text-[30px] font-[700] ml-[25px] my-4 alegreyaNormal md:text-start text-center'>Shopping Cart</h2>
-                                <span className='xl:ml-[570px] lg:ml-[400px] md:ml-[500px] ml-[92px]'> <FiEdit size={30} /></span>
+                                 <h2 className='text-[30px] font-[700] ml-[25px] my-4 alegreyaNormal md:text-start text-center'>Personal Information</h2>
+                                <span className='xl:ml-[420px] lg:ml-[400px] md:ml-[500px] ml-[92px]'> <FiEdit size={30} /></span>
                            </div>
                             <hr className='border-[#1E2819]' />
                             <h2 className='text-[30px] font-[700] ml-[25px] my-4 alegreyaNormal md:text-start text-center'>Addresses</h2>
                     <form className='mt-[27px] px-6 md:px-0 ml-[25px]'>
-                        <div class="lg:flex md:flex block gap-[25px] items-center ">
-                            <label class="block text-gray-700 text-[18px] font-[400] mb-2 nunitoNormal w-[123px]" for="name">First Name</label>
-                            <input class="border border-[#1E2819] rounded-full xl:w-[555px] lg:w-[408px] md:w-[408px] w-full h-[44px] py-2 px-[36px]" type="text" id="name" placeholder="First Name" />
                         
-                        </div>
-                        <div class="mt-6 lg:flex md:flex block gap-[25px] items-center">
-                            <label class="block text-gray-700 text-[18px] font-[400] mb-2 nunitoNormal w-[123px]" for="name">Last Name</label>
-                            <input class="border border-[#1E2819] rounded-full xl:w-[555px] lg:w-[408px] md:w-[408px] w-full h-[44px] py-2 px-[36px]" type="text" id="name" placeholder="Last Name" />
-                        
-                        </div>
+                      
                         <div class="mt-6 lg:flex md:flex block gap-[24px] items-center">
                             <label class="block text-gray-700 text-[18px] font-[400] mb-2 nunitoNormal w-[123px]" for="address">Shipp, Address</label>
-                            <input class="border border-[#1E2819] rounded-full xl:w-[555px] lg:w-[408px] md:w-[408px] w-full h-[44px] py-2 px-[36px]" type="address" id="address" placeholder="Shipp, Address" />
+                            <input class="border-none rounded-[10px] xl:w-[555px] lg:w-[408px] md:w-[408px] w-full h-[44px] py-2 px-[36px]" type="address" id="address" placeholder="Shipp, Address" />
                         </div>
                                 
                         <div className='md:flex block gap-[13px]'>
                             <div class="mt-6 lg:flex md:flex block gap-[8px] items-center">
                                 <label class="block text-gray-700 text-[18px] font-[400] mb-2 nunitoNormal" for="city">City</label>
-                                <input class="border border-[#1E2819] rounded-full xl:w-[170px] lg:w-[123px] md:w-[122px] w-full h-[44px] py-2 px-[20px]" type="text" id="city" placeholder="City" />
+                                <input class="border-none rounded-[10px] xl:w-[170px] lg:w-[123px] md:w-[122px] w-full h-[44px] py-2 px-[20px]" type="text" id="city" placeholder="City" />
                             </div>
                             <div class="mt-6 lg:flex md:flex block gap-[8px] items-center">
                                 <label class="block text-gray-700 text-[18px] font-[400] mb-2 nunitoNormal" for="state">State</label>
-                                <input class="border border-[#1E2819] rounded-full xl:w-[170px] lg:w-[123px] md:w-[122px] w-full h-[44px] py-2 px-[20px]" type="text" id="state" placeholder="State" />
+                                <input class="border-none rounded-[10px] xl:w-[170px] lg:w-[123px] md:w-[122px] w-full h-[44px] py-2 px-[20px]" type="text" id="state" placeholder="State" />
                             </div>
                             <div class="mt-6 lg:flex md:flex block gap-[8px] items-center">
                                 <label class="block text-gray-700 text-[18px] font-[400] mb-2 nunitoNormal" for="country">Country</label>
-                                <input class="border border-[#1E2819] rounded-full xl:w-[170px] lg:w-[123px] md:w-[122px] w-full h-[44px] py-2 px-[20px]" type="text" id="country" placeholder="Country" />
+                                <input class="border-none rounded-[10px] xl:w-[170px] lg:w-[123px] md:w-[122px] w-full h-[44px] py-2 px-[20px]" type="text" id="country" placeholder="Country" />
                             </div>
                         </div>
                                 
                         <div class="mt-6 lg:flex md:flex block gap-[14px] items-center">
                             <label class="block text-gray-700 text-[18px] font-[400] mb-2 nunitoNormal w-[122px]" for="number">Phone Number</label>
-                            <input class="border border-[#1E2819] rounded-full xl:w-[560px] lg:w-[408px] md:w-[408px] w-full h-[44px] py-2 px-[36px]" type="number" id="number" placeholder="Phone Number" />
+                            <input class="border-none rounded-[10px] xl:w-[560px] lg:w-[408px] md:w-[408px] w-full h-[44px] py-2 px-[36px]" type="number" id="number" placeholder="Phone Number" />
                         </div>
                             <div className='mt-[37px]'>
                                 <div className='flex gap-[14px] items-center'>

@@ -5,7 +5,7 @@ import left from '../../../../../assets/product/left.png'
 
 const Consume = () => {
     return (
-        <div className='lg:h-[619px] md:h-[400px] h-[200px] bg-[#CED0C8]'>
+        <div className='lg:h-[619px] md:h-[400px] h-[200px] bg-[#CED0C8] mt-[50px]'>
             <div className='xl:w-[1280px] w-full mx-auto px-6 xl:px-0'>
                 <h2 className='lg:pt-[70px] pt-[10px] lg:text-[60px] md:text-[40px] text-[30px] font-bold leading-[72px] alegreyaBold text-center'>How To Consume</h2>
                 <div className='flex justify-between relative z-10'>

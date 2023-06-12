@@ -1,5 +1,6 @@
 import React from 'react';
-import img from '../../../../assets/checkout/cart/check.png'
+import img from '../../../../assets/checkout/cart/check.png';
+import love from '../../../../assets/checkout/cart/love.png';
 import { BsShieldFillCheck } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import { RiDeleteBin6Line } from 'react-icons/ri';
@@ -21,7 +22,7 @@ const Cart = () => {
               <div className='max-w-screen-xl lg:h-[600px] md:h-[800px] h-[1270px] mx-auto'>
                 <div className="lg:flex block xl:py-[113px] gap-[32px]">
                     <div>
-                        <div className="xl:w-[838px] lg:w-[660px] w-full lg:h-[308px] md:h-[300px] h-[710px]  border-solid border-[1px] border-[#1E2819] bg-[#FBD895]">
+                        <div className="xl:w-[838px] lg:w-[660px] w-full lg:h-[308px] md:h-[300px] h-[710px]  border-solid border-[1px] border-[#1E2819] order_details">
                         <h2 className='text-[30px] font-[700] ml-[25px] my-4 alegreyaNormal md:text-start text-center'>Shopping Cart</h2>
                         <hr className='border-[#1E2819]' />
                         <div className="md:flex block">
@@ -45,7 +46,15 @@ const Cart = () => {
                     </div>
                     </div>
                         </div>
-                        <h2 className='my-[20px] text-[16px] font-bold leading-[19px] alegreyaBold flex items-center px-6 xl:px-0'> <AiOutlineLeft size={14} /> <span>Continue shopping</span> </h2>
+                        <div className='md:flex justify-between items-center px-6 xl:px-0'>
+                            <div>
+                                 <h2 className='my-[20px] text-[16px] font-bold leading-[19px] alegreyaBold flex items-center'> <AiOutlineLeft size={14} /> <span>Continue shopping</span> </h2>
+                            </div>
+                            <div className='md:w-[202px] w-full h-[44px] rounded-[50px] main_btn flex justify-center items-center gap-2 mb-[16px] md:mb-0'>
+                                <span><img src={love} alt="love" /></span>
+                                <h2 className='text-[16px] text-white font-bold alegreyaBold'>SAVE FOR LATER</h2>
+                            </div>
+                       </div>
                     </div>
                         
               

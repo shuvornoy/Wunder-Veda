@@ -10,24 +10,24 @@ import { Link } from 'react-router-dom';
 
 const Otp = () => {
     return (
-        <div class="min-h-screen flex items-center justify-center mx-auto mt-[123px]">
+        <div class="flex items-center justify-center mx-auto md:mt-[123px] mt-0">
         <div class=" lg:w-[768px] md:w-[650px] w-full lg:h-[449px] relative z-[1] ">
             <div class="bg-[#FFEFD1] py-10 px-8 shadow-md w-full h-full  md:border-[1px] border-[#1e281980]">
-                <h2 class="lg:text-[60px] md:text-[60px]  text-[32px] font-[700]  text-center alegreyaBold">Enter OTP Code</h2>
+                <h2 class="lg:text-[60px] md:text-[60px] text-[32px] font-[700]  text-center alegreyaBold">Enter OTP Code</h2>
                 <p className='text-center text-[18px] font-[400] my-[24px] nunitoNormal'>Lorem Ipsum Dolor Sit Amet Lorem Ipsum Dolor Sit Amet</p>
                 <form>
-                    <div class="mb-4 mt-4 lg:flex md:flex block gap-[21px] justify-center items-center">
-                       <input className='w-[98px] h-[70px] bg-white rounded-[52px] border-[1px] border-[#1E2819] items-start text-center' placeholder='0' type="text" />
-                       <input className='w-[98px] h-[70px] bg-white rounded-[52px] border-[1px] border-[#1E2819] items-start text-center' placeholder='0' type="text" />
-                       <input className='w-[98px] h-[70px] bg-white rounded-[52px] border-[1px] border-[#1E2819] items-start text-center' placeholder='0' type="text" />
-                       <input className='w-[98px] h-[70px] bg-white rounded-[52px] border-[1px] border-[#1E2819] items-start text-center' placeholder='0' type="text" />
-                       <input className='w-[98px] h-[70px] bg-white rounded-[52px] border-[1px] border-[#1E2819] items-start text-center' placeholder='0' type="text" />
+                    <div class="mb-4 mt-4 flex md:gap-[21px] gap-1 justify-center items-center">
+                       <input className='xl:w-[98px] w-[50px] xl:h-[70px] h-[50px] bg-white rounded-[52px] items-start text-center' placeholder='0' type="text" />
+                       <input className='xl:w-[98px] w-[50px] xl:h-[70px] h-[50px] bg-white rounded-[52px] items-start text-center' placeholder='0' type="text" />
+                       <input className='xl:w-[98px] w-[50px] xl:h-[70px] h-[50px] bg-white rounded-[52px] items-start text-center' placeholder='0' type="text" />
+                       <input className='xl:w-[98px] w-[50px] xl:h-[70px] h-[50px] bg-white rounded-[52px] items-start text-center' placeholder='0' type="text" />
+                       <input className='xl:w-[98px] w-[50px] xl:h-[70px] h-[50px] bg-white rounded-[52px] items-start text-center' placeholder='0' type="text" />
                     </div>
                 
                     <div class="flex justify-center mt-[63px]">
                             <Link to='/loginnow'>
-                                 <button class="main_btn w-[567px] h-[50px] text-white font-bold py-2 px-4 rounded-full alegreyaBold"
-                            type="submit">CHANGE PASSWORD</button>
+                                 <button class="main_btn md:w-[567px] w-full h-[50px] text-white font-bold py-2 px-4 rounded-full alegreyaBold"
+                            type="submit">SIGN UP NOW</button>
                             </Link>
                     </div>
                 </form>

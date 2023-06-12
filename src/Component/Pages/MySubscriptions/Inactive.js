@@ -2,6 +2,7 @@ import React from 'react';
 import product from '../../../assets/subscriptions/product.png';
 import './Inactive.css';
 import { FiEdit } from 'react-icons/fi'; 
+import { AiOutlineClose } from 'react-icons/ai';
 
 const Inactive = () => {
     return (
@@ -39,19 +40,20 @@ const Inactive = () => {
                         </div>
                         <div className='md:w-[147px] mx-auto w-full mt-[16px] md:mt-0'>
                             <p className='text-[14px] text-center font-medium leading-6 nunitoMedium'>Statusp </p>
-                            <label class="toggle md:ml-[30%] ml-[40%] border-none">
-                                <input class="toggle-checkbox" type="checkbox" />
-                                <div class="toggle-switch">
-                                    <span className='ml-2 text-[14px] font-medium alegreyaMedium'>ON</span> 
-                                </div>
+                        
+                            <label className="switch md:ml-[30%] ml-[40%] border-none">
+                                <input type="checkbox" />
+                                <span class="slider round"><p className='ml-[30px] text-[10px] pt-[3px]'>OFF</p></span>
                             </label>
                            
                             <div className='mt-2 flex items-center justify-center gap-2'>
-                                <label className="cursor-pointer label">
-                                    <input type="checkbox" className="w-[17px] rounded-[2px] h-[15px] checkbox checkbox-success bg-[#219653]] text-white" />
+                                <label className="cursor-pointer">
+                                    <div type="checkbox" className="w-[17px] rounded-[2px] h-[15px] checkbox checkbox-success bg-[#EB5757] text-white border-none" >
+                                        <AiOutlineClose />
+                                    </div>
                                 </label>
                              
-                                <h2 className='lg:text-[25px] md:text-[18px] text-[28px] font-bold leading-[26px] alegreyaBold text-center'>Active</h2>
+                                <h2 className='lg:text-[25px] md:text-[18px] text-[28px] font-bold leading-[26px] alegreyaBold text-center'>Inactive</h2>
                             </div>
                         </div>
                     </div>
@@ -86,18 +88,19 @@ const Inactive = () => {
                         </div>
                         <div className='md:w-[147px] mx-auto w-full mt-[16px] md:mt-0'>
                             <p className='text-[14px] text-center font-medium leading-6 nunitoMedium'>Statusp </p>
-                            <label class="toggle md:ml-[30%] ml-[40%] border-none">
-                                <input class="toggle-checkbox" type="checkbox" />
-                                <div class="toggle-switch">
-                                    <span className='ml-2 text-[14px] font-medium alegreyaMedium'>ON</span> 
-                                </div>
+                            <label className="switch md:ml-[30%] ml-[40%] border-none">
+                                <input type="checkbox" />
+                                <span class="slider round"><p className='ml-[30px] text-[10px] pt-[3px]'>OFF</p></span>
                             </label>
+                           
                             <div className='mt-2 flex items-center justify-center gap-2'>
-                                <label className="cursor-pointer label">
-                                    <input type="checkbox" className="w-[17px] rounded-[2px] h-[15px] checkbox checkbox-success bg-[#219653]] text-white" />
+                                <label className="cursor-pointer">
+                                    <div type="checkbox" className="w-[17px] rounded-[2px] h-[15px] checkbox checkbox-success bg-[#EB5757] text-white border-none" >
+                                        <AiOutlineClose />
+                                    </div>
                                 </label>
                              
-                                <h2 className='lg:text-[25px] md:text-[18px] text-[28px] font-bold leading-[26px] alegreyaBold text-center'>Active</h2>
+                                <h2 className='lg:text-[25px] md:text-[18px] text-[28px] font-bold leading-[26px] alegreyaBold text-center'>Inactive</h2>
                             </div>
                         </div>
                     </div>

@@ -17,20 +17,20 @@ const AddressSelect = () => {
                 <h2 className='w-full h-full flex items-center justify-center xl:text-[80px] text-[50px] xl:leading-[90px] leading-[55px] font-bold text-[#1E2819] alegreyaBold'>Checkout</h2>
                
             </div>
-              <div className='max-w-screen-xl  xl:h-[1000px] lg:h-[582px] md:h-[1200px] h-[1700px] mx-auto'>
+              <div className='xl:max-w-screen-xl w-full  xl:h-[700px] lg:h-[582px] md:h-[980px] h-[1100px] mx-auto'>
                 <div className="lg:flex block xl:py-[113px] gap-[32px]">
                     <div>
-                        <div className="xl:w-[838px] lg:w-[660px] w-full xl:h-[525px] lg:h-[725px] md:h-[730px] h-[1134px]  border-solid border-[1px] border-[#1E2819] bg-[#FBD895]">
+                        <div className="xl:w-[838px] lg:w-[660px] w-full xl:h-[525px] lg:h-[540px] md:h-[530px] h-[510px]  border-solid border-[1px] border-[#1E2819] bg-[#FBD895]">
                             <div className='flex items-center'>
-                                 <h2 className='text-[30px] font-[700] ml-[25px] my-4 alegreyaNormal md:text-start text-center'>Personal Information</h2>
-                                <span className='xl:ml-[570px] lg:ml-[400px] md:ml-[500px] ml-[92px]'> <FiEdit size={30} /></span>
+                                 <h2 className='md:text-[30px] text-[20px] font-[700] ml-[25px] my-4 alegreyaNormal md:text-start text-center'>Personal Information</h2>
+                                <span className='xl:ml-[470px] lg:ml-[300px] md:ml-[400px] ml-[60px]'> <FiEdit size={30} /></span>
                            </div>
                             <hr className='border-[#1E2819]' />
                             <div className='flex items-center'>
-                                <h2 className='text-[30px] font-[700] ml-[25px] my-4 alegreyaNormal md:text-start text-center'>Addresses</h2>
-                                <h3 className='xl:ml-[510px] lg:ml-[400px] md:ml-[500px] ml-[92px] lg:w-[170px] text-[16px] font-bold alegreyaBold'>ADD NEW ADDRESS</h3>
+                                <h2 className='md:text-[30px] text-[20px] font-[700] ml-[25px] my-4 alegreyaNormal md:text-start text-center'>Addresses</h2>
+                                <h3 className='xl:ml-[510px] lg:ml-[325px] md:ml-[450px] ml-[70px] lg:w-[170px] text-[16px] font-bold alegreyaBold'>ADD NEW ADDRESS</h3>
                             </div>
-                            <div className='w-[335px] h-[185px] bg-[#FFFFFF] rounded-[10px] ml-[65px] px-[26px] pt-[30px]'>
+                            <div className='md:w-[335px] w-full h-[185px] bg-[#FFFFFF] rounded-[10px] md:ml-[65px] px-[26px] pt-[30px]'>
                                 <div className='flex justify-between items-center'>
                                     <h2 className='text-[25px] font-bold leading-[30px] alegreyaNormal'>Jack James Home</h2>
                                     <input type="radio" name="radio-1" className="radio" />
@@ -48,6 +48,9 @@ const AddressSelect = () => {
                                     <p className='text-[14px] font-normal leading-[25px] nunitoNormal'>Phone: +91 24687 9651531</p>
                                 </div>
                             </div>
+                            <div className='mt-[31px] flex justify-end mr-[40px]'>
+                                <button className='w-[139px] h-[44px] main_btn rounded-[50px] text-white text-[16px] font-bold leading-[44px] alegreyaBold mt-[16px] md:mt-0'>CONTINUE</button>
+                             </div>
                              
                             <hr className='border-[#1E2819] mt-[37px]' />
                             <h2 className='text-[30px] font-[700] ml-[25px] my-4 alegreyaNormal md:text-start text-center'>Payment Method</h2>

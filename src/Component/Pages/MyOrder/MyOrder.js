@@ -14,12 +14,12 @@ const MyOrder = () => {
     return (
         <div>
             <div className='xl:h-[370px] lg:h-[196px] md:h-[148px] h-[284px] bg-cover md:bg-contain xl:w-full w-full  checkout_banner flex'>
-                <h2 className='w-full h-full flex items-center justify-center xl:text-[80px] text-[50px] xl:leading-[90px] leading-[55px] font-bold text-[#1E2819] alegreyaBold'>Checkout</h2>
+                <h2 className='w-full h-full flex items-center justify-center xl:text-[80px] text-[50px] xl:leading-[90px] leading-[55px] font-bold text-[#1E2819] alegreyaBold'>My Orders</h2>
                
             </div>
             <div className="mx-auto xl:w-[1263px] w-full lg:mt-[113px]">
                 <p className='text-end pb-[15px] text-[18px] font-medium leading-[24px] nunitoMedium flex items-center justify-end'><span>Sort by: All Orders</span> <span><MdKeyboardArrowDown /></span></p>
-            <div className='w-full bg-[#fbd795ad]  border-solid border-[1px] border-[#000]'>
+            <div className='w-full order_details  border-solid border-[1px] border-[#000]'>
                 <h3 className='text-[30px] font-[700] p-4 alegreyaBold'>Your Recent Orders</h3>
                     
                 <div className='w-full md:h-[226px] bg-[#FBD895] mt-[22px] md:flex block xl:gap-[39px] items-center py-[50px] md:py-0'>
@@ -94,7 +94,7 @@ const MyOrder = () => {
         <p className='text-end pb-[15px] text-[18px] font-medium leading-[24px] nunitoMedium flex items-center justify-start xl:pl-0 pl-6 '><span><MdKeyboardArrowLeft /></span><span>Continue shopping</span> </p>
 
 
-        <div className='w-full bg-[#fbd795ad]  border-solid border-[1px] border-[#000] lg:mt-[62px] mt-[40px]'>
+        <div className='w-full order_details  border-solid border-[1px] border-[#000] lg:mt-[62px] mt-[40px]'>
            <h3 className='text-[30px] font-[700] p-4'>Your Recent Orders</h3>
            <div className='w-full md:h-[226px] bg-[#FBD895] mt-[22px] md:flex block xl:gap-[39px] items-center py-[50px] md:py-0'>
                     <div>

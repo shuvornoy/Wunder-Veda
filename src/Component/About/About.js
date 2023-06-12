@@ -18,7 +18,7 @@ const About = () => {
             <Meet />
             <Love />
             <Board />
-            <Dolor />
+            <Dolor /> 
         </div>
     );
 };

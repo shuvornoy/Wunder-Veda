@@ -5,8 +5,8 @@ import left from '../../../../assets/Aboutus/left.png'
 
 const Vision = () => {
     return (
-        <div className='md:h-[923px] h-[1400px] bg-[#1E2819] px-6 xl:px-0'>
-            <div className='xl:w-[1280px] mx-auto lg:pt-[110px] pt-[50px] md:flex block justify-center items-center'>
+        <div className='lg:h-[923px] md:h-[600px] h-[1400px] bg-[#1E2819] px-6 xl:px-0'>
+            <div className='xl:w-[1280px] w-full mx-auto lg:pt-[110px] pt-[50px] md:flex block justify-center items-center'>
                 <div className='xl:w-[827px] lg:w-[710px] md:w-[554px] w-full lg:h-[282px] md:h-[200px] h-[400px] bg-[#FFFFFF] shadow-[#1E2819] z-10 lg:py-[43px] py-[10px] lg:px-[80px] px-[20px]'>
                     <h2 className='lg:text-[60px] md:text-[40px] text-[40px] font-bold alegreyaBold'>Our Vision</h2>
                     <p className='lg:text-[18px] text-[16px] font-medium leading-[24px] nunitoMedium'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip. consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidun</p>

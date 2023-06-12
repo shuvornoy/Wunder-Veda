@@ -4,3 +4,6 @@
 .modal-box.relative {
     border-radius: 0 !important;
 }
+input.mask.mask-star {
+    background: #F9A833;
+}

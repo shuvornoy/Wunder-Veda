@@ -170,14 +170,12 @@ const AddFeedback = () => {
                         <img className='absolute md:mt-[-340px] mt-[-380px] md:ml-[160px] ml-[85px]' src={review} alt="review" />
                     </div>
 
-                    <div className='mt-[33px] w-full mx-auto flex justify-center'>
-                        <button className='w-[139px] mx-auto h-[44px] main_btn rounded-[50px] text-[16px] font-bold alegreyaBold text-white'>VIEW MORE</button></div>
                    
-                    
-                    
-                </div>
 
-            </div>
+                </div>
+                 <div className='mt-[33px] flex justify-center'>
+                        <button className='w-[139px]  h-[44px] main_btn rounded-[50px] text-[16px] font-bold alegreyaBold text-white'>VIEW MORE</button></div>
+                   </div>
 
             <div className='xl:block hidden'>
                 <img className='absolute top-[704px]' src={img1} alt="img1" />

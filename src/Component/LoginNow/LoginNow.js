@@ -7,7 +7,7 @@ import img7 from '../../assets/login/slice-of-cucumber-isolated-png 1.png';
 import img10 from '../../assets/login/i.png';
 const LoginNow = () => {
     return (
-        <div class="min-h-screen flex items-center justify-center mx-auto mt-[123px]">
+        <div class="flex items-center justify-center mx-auto md:mt-[123px]">
         <div class=" lg:w-[768px] md:w-[650px] w-full lg:h-[449px] relative z-[1] ">
             <div class="bg-[#FFEFD1] py-8 px-8 shadow-md w-full h-full  md:border-[1px] border-[#1e281980]">
                 <h2 class="lg:text-[60px] md:text-[60px] text-[32px] font-[700]  text-center alegreyaBold">Log In Now!</h2>

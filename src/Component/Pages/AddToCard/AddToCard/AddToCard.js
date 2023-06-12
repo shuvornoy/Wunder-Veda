@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom';
 const AddToCard = () => {
     return (
         <div>
-            <div className='xl:h-[988px] xl:w-[1280px] mx-auto px-6 xl:px-0'>
+            <div className='xl:h-[988px] xl:w-[1280px] mx-auto px-6 xl:px-0 mt-[72px]'>
             <h2 className='xl:text-[16px] font-bold leading-[19px] xl:mt-[72px] alegreyaMedium'>Home / Product NAME</h2>
             <div className='mt-[17px] lg:flex block justify-between xl:gap-[33px] lg:gap-[20px]'>
                 <div>
@@ -100,19 +100,19 @@ const AddToCard = () => {
                                     </div>
                                     <div>
                                         <div>
-                                            <h2 className='xl:w-[411px] xl:h-[84px] text-[32px] leading-[39px] font-bold alegreyaBold'>Product Name | Lorem Ipsum Dolor Sit Amit</h2>
+                                            <h2 className='xl:w-[411px] xl:h-[84px] md:text-[32px] text-[18px] md:leading-[39px] font-bold alegreyaBold'>Product Name | Lorem Ipsum Dolor Sit Amit</h2>
                                         </div>
                                         <div className='flex gap-[14px] items-center'>
                                             <h2 className='xl:text-[27px] font-extrabold xl:leading-[36px] nunitoextra'>$15.50</h2>
                                             <p className='text-[#787A80] font-bold leading-[150%] text-[14px] nunitoNormal'><s>$31.00</s></p>
                                             <p className='xl:w-[45px] xl:h-[22px] bg-[#E70613] rounded-[4px]    justify-center text-white text-[12px] font-bold nunitoNormal flex items-center'>-50%</p>
                                         </div>
-                                        <div className='mt-[16px] flex gap-[11px] items-center'>
-                                            <button className='xl:w-[212px] xl:h-[44px] main_btn rounded-[50px] text-white text-[16px] font-bold alegreyaNormal'>CONTINUE SHOPPING</button>
+                                        <div className='md:mt-[16px] md:flex block gap-[11px] items-center'>
+                                            <button className='md:w-[212px] w-[150px] md:h-[44px] h-[40px] main_btn rounded-[50px] text-white md:text-[16px] text-[12px] font-bold alegreyaNormal mb-[5px] md:mb-0'>CONTINUE SHOPPING</button>
                                             <Link to="/cart">
-                                                <div className='xl:w-[178px] xl:h-[44px] main_btn rounded-[50px] flex justify-center items-center btn border-none'> <span className='mr-[9px]'>
-                                                    <img className='w-[15px] h-[14px]' src={card} alt="card" /></span>
-                                                    <p className='text-[16px] font-bold alegreyaBold'>Add to cart</p>
+                                                <div className='md:w-[212px] w-[150px] md:h-[44px] h-[44px] main_btn rounded-[50px] flex justify-center items-center btn border-none'> <span className='mr-[9px]'>
+                                                    <img className='w-[15px] md:h-[14px] h-[10px]' src={card} alt="card" /></span>
+                                                    <p className='md:text-[16px] text-[12px] font-bold alegreyaBold'>Add to cart</p>
                                                 </div>
                                             </Link>
                                         </div>

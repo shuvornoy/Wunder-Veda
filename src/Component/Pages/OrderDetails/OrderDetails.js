@@ -11,6 +11,7 @@ import img5 from '../../../assets/checkout/right/5.png'
 import img6 from '../../../assets/checkout/right/6.png'
 import img7 from '../../../assets/checkout/right/7.png'
 import { AiOutlineLeft } from 'react-icons/ai';
+import './OrderDetails.css'
 
 
 const OrderDetails = () => {
@@ -22,8 +23,8 @@ const OrderDetails = () => {
               <div className='max-w-screen-xl lg:h-[600px] md:h-[800px] h-[1270px] mx-auto'>
                 <div className="lg:flex block xl:py-[113px] gap-[32px]">
                     <div>
-                        <div className="xl:w-[838px] lg:w-[660px] w-full lg:h-[308px] md:h-[300px] h-[710px]  border-solid border-[1px] border-[#1E2819] bg-[#FBD895]">
-                        <h2 className='text-[30px] font-[700] ml-[25px] my-4 alegreyaNormal md:text-start text-center'>Shopping Cart</h2>
+                        <div className="xl:w-[838px] lg:w-[660px] w-full lg:h-[308px] md:h-[300px] h-[710px]  border-solid border-[1px] border-[#1E2819] order_details">
+                        <h2 className='text-[30px] font-[700] ml-[25px] my-4 alegreyaNormal md:text-start text-center'>Edit Order/Order Details</h2>
                         <hr className='border-[#1E2819]' />
                         <div className="md:flex block">
                         <div className="md:flex block">
