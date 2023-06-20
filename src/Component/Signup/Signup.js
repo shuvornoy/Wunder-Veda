@@ -15,7 +15,7 @@ import 'react-phone-number-input/style.css';
 const Signup = () => {
     const [value, setValue] = useState()
     return (
-        <div class="flex items-center justify-center mx-auto md:mt-[123px]">
+        <div class="flex items-center justify-center mx-auto md:mt-[223px]">
         <div class=" lg:w-[768px] md:w-[650px] w-full lg:h-[554px] relative z-[1] ">
             <div class="bg-[#FFEFD1] py-10 px-8 shadow-md w-full h-full md:border-[1px] border-[#1e281980]">
                 <h2 class="lg:text-[60px] md:text-[60px] text-[32px] font-[700] text-center alegreyaBold">Sign Up Now</h2>

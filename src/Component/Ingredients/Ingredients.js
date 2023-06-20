@@ -8,7 +8,7 @@ import Explore from '../Pages/Ingredients/Explore/Explore';
 
 const Ingredients = () => {
     return (
-        <div>
+        <div className='mt-[102px]'>
             <Banner />
             <Explore />
             <ExpertsBehind />

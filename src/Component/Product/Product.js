@@ -7,14 +7,16 @@ import For from '../Pages/ProductDetails/For/For';
 import WhyYou from '../Pages/Ingredients/WhyYou/WhyYou';
 import Experts from '../Pages/Home/Experts/Experts';
 import Review from '../Pages/Home/Review/Review';
+import Each from '../Pages/ProductDetails/ProductDetails/Each/Each';
 
 const Product = () => {
     return (
-        <div>
+        <div className='mt-[102px]'>
             <ProductDetails />
             <Consume />
             <WhyYou />
             <OurProduct />
+            <Each />
             <Lorem />
             <For /> 
             <Experts />

@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 const Forgot = () => {
      const [showPassword, setShowPassword] = useState(false);
     return (
-        <div class="min-h-screen flex items-center justify-center mx-auto mt-[123px]">
+        <div class="min-h-screen flex items-center justify-center mx-auto mt-[223px]">
         <div class=" lg:w-[768px] md:w-[650px] w-full lg:h-[449px] relative z-[1] ">
             <div class="bg-[#FFEFD1] py-10 px-8 shadow-md w-full h-full  md:border-[1px] border-[#1e281980]">
                 <h2 class="lg:text-[60px] md:text-[60px]  text-[32px] font-[700]  text-center alegreyaBold">Forgot Password</h2>

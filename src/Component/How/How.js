@@ -8,7 +8,7 @@ import Process from '../Pages/Howwe/Process/Process';
 
 const How = () => {
     return (
-        <div>
+        <div className='mt-[102px]'>
             <Banner />
              <Process />
            <Behind />

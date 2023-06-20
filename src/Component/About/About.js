@@ -10,7 +10,7 @@ import Board from '../Pages/About/Board/Board';
 
 const About = () => {
     return (
-        <div>
+        <div className='mt-[102px]'>
             <AboutBanner />
             <Rating />
             <How />

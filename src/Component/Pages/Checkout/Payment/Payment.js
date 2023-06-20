@@ -12,7 +12,7 @@ import { FiEdit } from 'react-icons/fi';
 
 const Payment = () => {
     return (
-        <div>
+        <div className='mt-[102px]'>
             <div className='xl:h-[370px] lg:h-[196px] md:h-[148px] h-[284px] bg-cover md:bg-contain xl:w-full w-full  checkout_banner flex'>
                 <h2 className='w-full h-full flex items-center justify-center xl:text-[80px] text-[50px] xl:leading-[90px] leading-[55px] font-bold text-[#1E2819] alegreyaBold'>Checkout</h2>
                

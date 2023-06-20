@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 
 const AddToCard = () => {
     return (
-        <div>
+        <div className='mt-[102px]'>
             <div className='xl:h-[988px] xl:w-[1280px] mx-auto px-6 xl:px-0 mt-[72px]'>
             <h2 className='xl:text-[16px] font-bold leading-[19px] xl:mt-[72px] alegreyaMedium'>Home / Product NAME</h2>
             <div className='mt-[17px] lg:flex block justify-between xl:gap-[33px] lg:gap-[20px]'>

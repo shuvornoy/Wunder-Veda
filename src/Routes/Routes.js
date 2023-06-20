@@ -23,6 +23,8 @@ import Feedback from "../Component/Pages/Feedback/Feedback";
 import Contact from "../Component/Pages/Contact/Contact";
 import AddFeedback from "../Component/Pages/AddFeedback/AddFeedback";
 import Payment from "../Component/Pages/Checkout/Payment/Payment";
+import Career from "../Component/Pages/Career/Career";
+import Information from "../Component/Pages/Information/Information";
 
 
 const router = createBrowserRouter([
@@ -128,6 +130,14 @@ const router = createBrowserRouter([
          {
             path: "/terms",
             element: <Terms />,
+         },
+         {
+            path: "/career",
+            element: <Career />,
+         },
+         {
+            path: "/information",
+            element: <Information />,
          },
       ],
    },

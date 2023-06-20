@@ -1,4 +1,5 @@
 .product_bg{
-    background: rgba(30, 40, 25, 1.25);
+    mix-blend-mode: multiply;
+    background: rgba(30, 40, 25, 0.25);
     background-image:url('../../../../assets/productUps/cup-hemp.png');
 }

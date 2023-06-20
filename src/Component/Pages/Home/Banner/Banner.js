@@ -16,11 +16,11 @@ import { Link } from 'react-router-dom';
 const Banner = () => {
     return (
       <>
-        <div className='xl:h-[805px] lg:h-[700px] md:h-[610px] h-[1050px]  bg_banner px-6 xl:px-0'>
-          <div className="xl:w-[1280px] w-full md:flex block mx-auto justify-between">
+        <div className='xl:h-[805px] lg:h-[700px] md:h-[610px] h-[1050px]  bg_banner px-6 xl:px-0 mt-[102px]'>
+          <div className="xl:w-[1280px] w-full md:flex block mx-auto justify-between ">
               <div className="">
                 <div className='xl:w-[550px] lg:w-[400px] w-[325px] text-[#1E2819] xl:pt-[158px] pt-[54px]'>
-                <h2 className="xl:text-[36px] lg:text-[28px] text-[23px] font-normal leading-[45px] alegreyaNormal">Experience the Timeless Wisdom of</h2>
+                <h2 className="xl:text-[36px] lg:text-[28px] text-[23px] font-bold leading-[45px] alegreyaNormal">Experience the Timeless Wisdom of</h2>
                   <h1 className="font-bold xl:text-[72px] lg:text-[35px] md:text-[35px] text-[50px] xl:leading-[85px] md:leading-[50px] leading-[66px] alegreyaBold">
                     Holistic Wellness & Vibrant Living
                   </h1>
@@ -49,7 +49,7 @@ const Banner = () => {
             </div>
 
             <div>
-              <img className='xl:w-[508px] lg:w-[500px] w-full mx-auto xl:h-[680px] lg:h-[600px] xl:mt-[100px] md:mt-[54px] relative' src={back} alt="back" />
+             
               <img className='xl:w-[625px] lg:w-[474px] md:w-[380px] w-[356px] xl:h-[694px] lg:h-[500px] md:h-[400px] h-[381px] xl:top-[294px] md:top-[230px] top-[623px] xl:right-[350px] absolute z-10' src={main} alt="main" />
               <img className='xl:w-[682px] lg:w-[480px] md:w-[416px] w-[365px] xl:h-[370px] lg:h-[330px] md:h-[285px] h-[260px] xl:top-[658px] lg:top-[490px] md:top-[431px] top-[830px] xl:right-[284px] lg:right-[28px] absolute z-20' src={pngegg} alt="pngegg" />
               <img className='absolute xl:w-[137px] lg:w-[100px] w-[71px] xl:h-[136px] lg:h-[100px] h-[71px] z-10 xl:top-[410px] lg:top-[316px] md:top-[300px] top-[688px] xl:right-[740px] lg:right-[350px] md:right-[280px] right-[250px]' src={logo} alt="logo" />
